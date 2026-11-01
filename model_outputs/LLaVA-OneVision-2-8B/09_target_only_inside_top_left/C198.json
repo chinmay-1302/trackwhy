@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a dark jacket and a light-colored cap, standing near the white pillar on the right side of the frame. The target remains visible and is consistently tracked by the ordinary tracker boxes throughout the clip. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target's position changes slightly as they move within the crowd, but they remain identifiable by their appearance and location relative to the pillar and other people. The colored highlight is present initially but disappears after the first few seconds, but the target is still correctly tracked by the ordinary boxes. There are no significant occlusions or visual conditions that would make the target difficult to track. The target's visibility remains fully visible throughout the clip."
+}

@@ -1,0 +1,13 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially highlighted with ID 111 is a person in a green top walking towards the center. The tracker ID 111 later drifts onto another person moving in the same direction, indicating a spatial attachment to a different physical person. The original target remains partly visible throughout the clip."
+}

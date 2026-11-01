@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a green shirt, initially highlighted and tracked correctly. The target moves through the crowd, and the tracker maintains the correct bounding box throughout the clip. The target becomes partly occluded by other people, but the tracker continues to follow the correct person without any errors or identity changes."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a red jacket walking near the large pillar, but the highlight incorrectly tracks a different person in a dark jacket. The correct tracker box remains on the intended target throughout the clip, indicating no tracker error."
+}

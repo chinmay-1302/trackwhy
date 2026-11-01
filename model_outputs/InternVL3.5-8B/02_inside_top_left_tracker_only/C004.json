@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "identity_change_subtype": null,
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially highlighted with ID 57 is a person in a wheelchair. The track ID follows the person as they move, but at one point, the ID appears to attach to another person who is walking, indicating a drift to a moving person."
+}

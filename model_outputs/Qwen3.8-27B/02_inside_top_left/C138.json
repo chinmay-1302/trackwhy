@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, a person in a dark jacket, is initially tracked with ID 38, but the tracker subsequently assigns ID 38 to a different person in an orange high-visibility vest, while the original target is tracked by a new ID (76), indicating an identity transfer."
+}

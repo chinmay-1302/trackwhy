@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in the crowd who is initially highlighted but the highlight disappears. The person remains visible among the crowd and is tracked correctly by the ordinary tracker boxes throughout the clip. There is no evidence of tracker errors, identity changes, or missed detections. The visibility is partly visible due to the crowd occlusion."
+}

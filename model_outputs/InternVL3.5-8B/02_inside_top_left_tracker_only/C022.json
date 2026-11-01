@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "duplicate_track",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target's track initially has ID 14358, but a duplicate track with ID 14358 appears simultaneously, indicating duplicate_track."
+}

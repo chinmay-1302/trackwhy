@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a yellow shirt and dark pants, located near the center of the frame. The tracker follows this person consistently throughout the clip, with no errors in detection, identity, or tracking. The colored highlight is present initially and remains on the correct target for the duration of the clip, with no mismatch or disappearance of the highlight. The target's motion is consistent with walking through the station, and there are no occlusions or other events that would cause a tracking error. The tracker maintains a correct association with the target, with no duplicate tracks, drift, or identity changes observed."
+}

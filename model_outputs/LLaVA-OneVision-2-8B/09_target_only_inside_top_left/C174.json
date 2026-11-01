@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a black and white sports jersey with the number 27, who is consistently tracked by the yellow bounding box throughout the clip. The target moves from the right side of the frame towards the center, passing by other pedestrians without any occlusions or interactions that would cause a tracker error. The tracker maintains a consistent association with the target, with no duplicate tracks, identity transfers, or missed detections observed. The colored highlight initially appears on this target and remains consistent, indicating that the tracker is correctly following the intended person."
+}

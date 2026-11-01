@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a light blue jacket standing near the center of the frame. The target remains visible throughout the clip, with no significant occlusion or loss of tracking. The target's position is consistent, and there are no issues with the tracker boxes or IDs assigned to the target. The visibility is partly visible due to the crowd and other people moving around the target, but the target can still be reliably tracked."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The intended target (ID 21) is tracked correctly until it becomes occluded by a crowd near the pillar; upon re-emergence, the tracker assigns a new ID (182) to the same physical person, while the original ID 21 is no longer associated with the target, indicating an identity transfer."
+}

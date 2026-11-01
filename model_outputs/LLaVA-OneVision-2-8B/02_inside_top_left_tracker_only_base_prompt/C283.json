@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a green shirt, who is tracked consistently throughout the clip. The colored highlight appears on this person in the latter part of the clip, but the tracker maintains a correct bounding box on the target without any errors, even when the target is partially occluded by other people. The target's tracker box remains visible and correctly assigned to the same physical person, with no identity changes, drift, or missed detections observed."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The physical target, a person in dark clothing standing near a pillar, is consistently tracked by the same ID (747) throughout the clip, with the highlight correctly marking the target until it disappears, and no tracker errors such as identity changes, drift, or missed detections are observed."
+}

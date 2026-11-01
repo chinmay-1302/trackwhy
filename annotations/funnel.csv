@@ -1,0 +1,7 @@
+stage,count,delta,note
+apparent_visible_miss_raw,282,,
+unannotated_static_structure,270,-12,within 40 px of unannotated canopy / structure
+truncation,65,-205,truncated by frame boundary
+sub3_frame_flicker,28,-37,one- and two-frame runs
+localisation_drift,22,-6,tracker held identity below IoU 0.5
+visible_miss_final,22,,headline remaining visible misses

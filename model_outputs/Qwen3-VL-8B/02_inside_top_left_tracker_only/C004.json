@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, a person in a dark shirt and light pants with ID 47, is consistently tracked throughout the clip without any tracker error, even as the highlight disappears and the ID changes to 100 and then 113."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The highlighted target is a pedestrian walking away from the camera on the left side of the plaza, and the tracker maintains a consistent ID (402) on this individual throughout the clip without any identity switches, fragmentation, or missed detections."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing an orange shirt and dark pants, initially highlighted in the center of the frame. The tracker maintains a consistent bounding box around this person throughout the clip, even as they move slightly and are occasionally partially occluded by other pedestrians. The target's track ID remains stable, with no instances of duplicate tracking, identity transfer, or drift observed. The target's visibility is partly obscured by other people in the crowd, but the tracker continues to follow the intended person reliably. No probe or highlight issues are present, and the tracker output is consistent with the physical target's motion and appearance."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is consistently tracked by an ordinary tracker box throughout the clip, with no evidence of tracking errors, identity changes, or missed detections. The colored highlight is not necessary for identifying the target, as the physical person can be followed using appearance and motion relative to surrounding people and static objects."
+}

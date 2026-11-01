@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, a person in a pink top and dark pants, is consistently tracked with ID 146 throughout the clip as they walk from the bottom right towards the center, with no evidence of identity changes, drift, or missed detections."
+}

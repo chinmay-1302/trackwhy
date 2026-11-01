@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a dark jacket walking toward the center, is correctly tracked by the ordinary tracker box with ID 142. The highlight initially matches this person but later mismatches, highlighting a different person. The tracker itself does not make any errors; it consistently follows the correct physical target throughout the clip."
+}

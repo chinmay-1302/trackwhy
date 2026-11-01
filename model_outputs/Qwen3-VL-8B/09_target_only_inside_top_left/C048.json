@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, initially highlighted, is tracked by an ordinary tracker box with ID 1530. The highlight disappears but the correct tracker box remains active, following the person through the crowd without error."
+}

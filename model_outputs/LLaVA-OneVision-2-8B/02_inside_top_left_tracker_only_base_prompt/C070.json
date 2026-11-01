@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a blue shirt and dark pants, initially highlighted near the center of the frame. The tracker follows this person as they move towards the right side of the frame, navigating through the crowd. The target's tracker box remains consistent with the person's movement, and there are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target becomes partly visible as they move through the crowd, with other people occluding parts of their body. The colored highlight disappears after the initial frames, but the correct tracker box remains on the target. No probe issues are observed."
+}

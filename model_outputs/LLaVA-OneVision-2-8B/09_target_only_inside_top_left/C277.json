@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing an orange high-visibility vest. The target is consistently tracked by the ordinary tracker boxes throughout the clip, with no evidence of duplicate tracks, identity changes, or missed detections. The colored highlight initially appears on the target and remains consistent with the target's position and movement. The target's tracker box is always present and correctly assigned to the person in the orange vest, with no visual conditions causing the target to be obscured or difficult to track. The target's visibility remains fully visible throughout the clip, with no occlusions or visual conditions affecting the tracker's ability to detect the target. The colored highlight is present and correctly mapped to the target for the entire duration of the clip, with no mismatch or ambiguity. The tracker output is reliable and consistent, with no errors in the tracking of the intended target."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person walking in the crowd, and the tracker correctly follows them throughout the clip. The highlight is present initially but disappears, which is a probe issue, not a tracker error."
+}

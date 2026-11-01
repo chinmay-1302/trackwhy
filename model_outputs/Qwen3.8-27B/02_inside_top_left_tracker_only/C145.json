@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, a person in a pink shirt, is initially tracked as ID 213. The track is lost when the person passes behind a large pillar, and upon re-emerging, the tracker assigns a new ID (399) to the same physical person, indicating fragmentation."
+}

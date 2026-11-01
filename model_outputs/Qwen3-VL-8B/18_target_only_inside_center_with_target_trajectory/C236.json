@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a dark jacket near the entrance, tracked by ID 735 initially, then ID 829, and later without a highlight. The highlight incorrectly switches to a different person at 0:04, but the correct target remains tracked by ordinary boxes throughout the clip."
+}

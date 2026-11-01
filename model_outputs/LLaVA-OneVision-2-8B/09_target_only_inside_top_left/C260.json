@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a dark jacket and dark pants, initially highlighted near the center of the frame. The target remains consistently tracked by the same tracker box throughout the clip, with no instances of duplicate tracking, drift, identity transfer, or fragmentation. The target moves from the center area towards the right side of the frame, passing by other pedestrians without any occlusions or interactions that would disrupt the tracking. The colored highlight disappears after the first few seconds, but the correct ordinary tracker box remains on the target, indicating no probe issue. The target remains fully visible and identifiable throughout the entire clip, with no visual conditions such as occlusion, truncation, or poor illumination affecting the tracking. The tracker maintains a consistent and accurate association with the intended physical person, demonstrating reliable performance."
+}

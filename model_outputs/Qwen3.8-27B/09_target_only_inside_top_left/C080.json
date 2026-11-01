@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The tracker ID 33, initially assigned to the target, is transferred to a different person (a worker in an orange vest) around 00:02, while the original target continues to be tracked by a new ID, constituting an identity transfer."
+}

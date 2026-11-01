@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, initially highlighted as '8', is tracked by an ordinary tracker box and remains visible throughout the clip. The highlight disappears after frame 3.8, but the correct tracker box continues to follow the same person. No tracker error occurs; the highlight is simply missing."
+}

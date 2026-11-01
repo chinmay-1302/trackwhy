@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The tracker initially follows the target (ID 89) but then transfers the ID to a different person (ID 32) near the information stand, while the original target continues walking away without a correct track."
+}

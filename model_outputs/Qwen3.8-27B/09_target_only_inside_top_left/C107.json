@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The intended target, initially highlighted as ID 8, is tracked until the ID is transferred to a different person (ID 22) in the latter half of the clip, while the highlight jumps to the new person, indicating an identity transfer and a highlight mismatch."
+}

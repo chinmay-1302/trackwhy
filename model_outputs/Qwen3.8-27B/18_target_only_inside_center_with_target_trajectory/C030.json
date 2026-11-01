@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The physical target is a pedestrian walking away from the camera in the upper-left area of the plaza, who is correctly tracked by a single continuous ID (424) throughout the clip, but the special colored highlight disappears after the first few seconds."
+}

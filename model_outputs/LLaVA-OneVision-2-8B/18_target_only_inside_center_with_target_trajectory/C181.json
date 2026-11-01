@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing an orange vest, who is consistently tracked by the MOT system throughout the clip. The target moves from the right side of the frame towards the center, passing through the crowd without any occlusions or interactions that would cause a tracker error. The MOT system maintains a correct bounding box on the target for the entire duration of the clip, with no missed detections, identity changes, or drift observed. The colored highlight initially appears on this target and remains consistent with the target's movement, confirming the target's identity and the system's correct tracking behavior."
+}

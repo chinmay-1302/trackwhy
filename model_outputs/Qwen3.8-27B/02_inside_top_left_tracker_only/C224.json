@@ -1,0 +1,14 @@
+{
+  "annotation_status": "target_not_identifiable",
+  "primary_error": null,
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The highlighted target ID 734 is a ghost detection located at the bottom edge of the frame with no corresponding physical person, making the intended target unidentifiable."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a green shirt, initially highlighted. The tracker follows this person consistently, with the bounding box remaining on the same individual throughout the clip. The target's visibility is partly obscured by other people in the crowd, but the tracker maintains correct association with the intended person. No tracker errors such as duplicate tracks, drift, identity transfer, or fragmentation are observed. The primary error is no_error as the target is correctly tracked despite partial occlusion by the crowd."
+}

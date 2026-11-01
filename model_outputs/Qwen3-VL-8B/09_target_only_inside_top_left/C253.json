@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a red jacket walking near the bottom center, is consistently tracked by an ordinary tracker box throughout the clip. The colored highlight appears briefly and then disappears, but the correct tracker box remains active on the same person, indicating no tracker error."
+}

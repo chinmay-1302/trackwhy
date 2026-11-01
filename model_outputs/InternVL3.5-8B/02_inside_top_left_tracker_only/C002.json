@@ -1,0 +1,13 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially highlighted with ID 243 is a person in a green top. The track ID follows the person as they move, but at one point, it appears to drift onto another person who is also moving. The original target remains partly visible throughout the clip."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person in the dark jacket and jeans who is initially highlighted. The tracker correctly follows this person with ID 22 until they are occluded by a crowd. After the occlusion, the highlight and the track ID 22 are transferred to a different person (a man in a white shirt) standing in the same area, while the original target is no longer tracked, constituting an identity transfer."
+}

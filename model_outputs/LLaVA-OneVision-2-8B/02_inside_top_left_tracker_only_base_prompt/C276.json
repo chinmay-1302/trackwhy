@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a dark jacket and carrying a bag, initially highlighted in the right side of the frame. The tracker follows this person as they move towards the center of the frame, navigating through the crowd. The target's tracker box remains consistent with the person's movement, even as they are partially occluded by other pedestrians. The highlight disappears after the initial frames, but the ordinary tracker box continues to follow the target reliably. No identity changes, drift, or missed detections are observed. The target's visibility is partly obscured by other people in the crowd, but the tracker maintains correct association with the intended person throughout the clip."
+}

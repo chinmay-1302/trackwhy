@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "identity_change_subtype": null,
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a light blue jacket, initially highlighted. The tracker box follows this person but drifts onto another moving person as the crowd becomes dense, causing crowd occlusion and partly visible conditions."
+}

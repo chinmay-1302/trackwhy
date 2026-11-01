@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "identity_change_subtype": null,
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The target initially highlighted with ID 487 is followed by the same physical person with ID 362, but the track drifts onto another moving person, indicating a drift error."
+}

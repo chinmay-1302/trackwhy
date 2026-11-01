@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a red jacket, initially highlighted near the center of the frame. The tracker follows this person consistently throughout the clip, with no evidence of duplicate tracks, identity changes, or missed detections. The person moves from the center area towards the right side of the frame, passing by other pedestrians and remaining clearly visible at all times. The colored highlight disappears after the first few seconds, but the correct tracker box remains on the target, indicating no probe issue. The tracker maintains accurate localization of the target despite the crowded environment and movement of other people."
+}

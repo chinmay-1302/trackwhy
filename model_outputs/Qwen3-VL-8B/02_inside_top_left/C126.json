@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a light blue jacket near the bottom center, who remains consistently tracked by the ordinary tracker box with ID 1117. The highlight initially points to a different person (ID 773) and later switches to another person (ID 756), indicating a highlight mismatch, but the correct tracker box for the intended target remains active throughout the clip."
+}

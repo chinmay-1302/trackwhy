@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, indicated by the yellow highlight, is a person standing near the information kiosk. The highlight disappears after the initial frames, but the same person remains visible and is correctly tracked by an ordinary tracker box with ID 27 throughout the clip. The tracker does not lose the target, and no identity change or drift occurs. The highlight's absence is the only probe issue, which is correctly classified as highlight_missing."
+}

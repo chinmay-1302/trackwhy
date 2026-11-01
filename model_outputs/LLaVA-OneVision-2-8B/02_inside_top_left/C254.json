@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person highlighted in yellow at the start of the clip. This person is tracked consistently throughout the video, with the yellow highlight remaining on the same individual. There are no instances of duplicate tracking, identity transfer, or drift. The target is always visible and correctly tracked by the ordinary bounding boxes, with no missed detections or incorrect ID assignments. The highlight is a consistent attention cue that does not change to a different person, and the tracker maintains a correct association with the intended target for the entire duration of the clip."
+}

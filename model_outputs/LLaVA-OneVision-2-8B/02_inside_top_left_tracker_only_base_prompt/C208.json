@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a yellow jacket, initially highlighted. The tracker follows this person consistently, with the yellow bounding box remaining on the same individual throughout the clip. The person moves from the center of the frame towards the right, passing by other pedestrians. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The visibility of the target is partly obscured by other people in the crowd, but the tracker maintains a consistent association with the intended person. No probe issues are observed, as the highlight aligns with the correct physical target for the duration of the clip."
+}

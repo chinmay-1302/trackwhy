@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The physical target, a person in dark clothing walking forward, is initially tracked with ID 24, but the track ID subsequently changes to 49, which had previously been assigned to a different person in the background, indicating an identity transfer."
+}

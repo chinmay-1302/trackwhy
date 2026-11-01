@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target is initially tracked with ID 77, but after a brief occlusion behind a pillar, the track is lost and the same person reappears with a new ID 140, indicating a fragmentation error."
+}

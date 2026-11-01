@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The physical target is initially tracked with ID 778, but the tracker subsequently assigns ID 826 to the same person, indicating an identity transfer where the existing ID 826 (previously on another person) is reassigned to the target."
+}

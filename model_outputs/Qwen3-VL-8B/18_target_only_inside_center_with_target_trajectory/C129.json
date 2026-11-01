@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, indicated by the highlight, is a person in a dark jacket standing near the information kiosk. The highlight disappears after the first few frames, but the same person remains visible and correctly tracked by an ordinary tracker box throughout the clip. The tracker does not lose the target or make any identity errors."
+}

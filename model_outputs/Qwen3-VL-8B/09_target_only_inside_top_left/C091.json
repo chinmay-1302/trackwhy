@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target, marked by the yellow highlight, is consistently tracked by the same tracker ID (49) throughout the clip. The person remains visible and identifiable, moving through the crowd without any tracker errors such as drift, identity change, or miss."
+}

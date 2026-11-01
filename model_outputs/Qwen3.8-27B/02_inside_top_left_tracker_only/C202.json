@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, initially highlighted with ID 37, is a person standing near the casino entrance; the tracker ID 37 is lost and subsequently reappears on a different person (ID 99) in the same location, indicating an identity transfer."
+}

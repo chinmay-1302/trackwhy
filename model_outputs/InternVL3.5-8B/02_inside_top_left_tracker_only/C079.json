@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "identity_change_subtype": null,
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_clutter"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The target initially highlighted with ID 255 is a person in a green jacket. The tracker box follows this person as they move through the crowd, but at one point, the box appears to attach to another person moving in the same direction, indicating a drift to a moving person. The target remains partly visible throughout the clip, and crowd clutter makes tracking challenging."
+}

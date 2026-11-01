@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, a person wearing a black shirt with the number 803 on the back, is consistently tracked by the same ID throughout the clip as they walk through the crowd, with no evidence of identity changes, drift, or missed detections."
+}

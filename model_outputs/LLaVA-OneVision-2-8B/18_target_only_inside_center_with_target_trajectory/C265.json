@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue hoodie located in the lower left area of the frame. The target remains consistently tracked by the ordinary tracker boxes throughout the entire clip. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target's visibility is fully maintained, and no visual conditions such as occlusion or poor illumination cause a loss of detection. The colored highlight appears in the lower right corner of the frame but does not correspond to the intended target, indicating a probe issue. However, the tracker output for the intended target remains correct and reliable."
+}

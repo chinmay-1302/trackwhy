@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a blue jacket, initially highlighted in the lower left area. The tracker maintains a consistent bounding box around this person throughout the clip, even as they move and are partially occluded by other pedestrians. There are no instances of duplicate tracks, identity transfer, or drift. The target's visibility is partly obscured by surrounding people, but the tracker continues to follow the correct individual without error."
+}

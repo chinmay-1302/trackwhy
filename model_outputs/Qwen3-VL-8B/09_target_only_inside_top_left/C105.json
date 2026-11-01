@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a striped shirt walking through the station. The highlight initially marks a different person (ID 49), then switches to the correct target (ID 8), and remains on the correct target for the rest of the clip. The tracker correctly follows the intended target without error, despite the highlight mismatch."
+}

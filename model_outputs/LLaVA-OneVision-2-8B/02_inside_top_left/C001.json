@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a dark outfit on the left side of the frame. The tracker maintains a consistent bounding box around this person throughout the clip, with no errors in tracking, identity changes, or missed detections. The target is partially occluded by other people and objects in the environment, which is why the visibility is partly visible. The visual conditions include crowd occlusion as the target is surrounded by other pedestrians in the busy train station environment."
+}

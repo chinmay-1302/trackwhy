@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a dark jacket and carrying a bag, walking from the right side of the frame towards the left. The target is consistently tracked by an ordinary tracker box with ID 100 throughout the clip. The colored highlight appears on the target in the latter part of the clip, but the target remains clearly visible and identifiable. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target's tracker box remains attached to the correct physical person at all times, and there are no missed detection intervals. The target's visibility is fully maintained, and no visual conditions such as occlusion, truncation, or poor illumination affect the tracking. The colored highlight is present and correctly maps to the intended target, with no mismatch or ambiguity."
+}

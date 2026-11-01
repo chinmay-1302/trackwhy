@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person walking in the background on the left side of the concourse, and the tracker consistently maintains a single bounding box (ID 60) on this individual throughout the clip without any identity switches, fragmentation, or missed detections."
+}

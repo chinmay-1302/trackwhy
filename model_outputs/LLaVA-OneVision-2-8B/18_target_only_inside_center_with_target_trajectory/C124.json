@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a red jacket and white pants, initially visible in the lower right area of the frame. The person moves slightly but remains in the same general area, with their visibility occasionally obscured by other people in the crowd. The tracker maintains a consistent bounding box around the target throughout the clip, with no evidence of identity change, drift, or missed detection. The primary visual condition affecting the target's visibility is crowd occlusion, as the person is surrounded by other pedestrians in the busy area."
+}

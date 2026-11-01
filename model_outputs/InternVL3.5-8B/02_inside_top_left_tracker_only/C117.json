@@ -1,0 +1,13 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially highlighted with ID 85 is followed by a drift onto a moving person, with the physical target becoming partly visible as they continue walking."
+}

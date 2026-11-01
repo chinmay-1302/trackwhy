@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, initially highlighted as ID 488, is correctly tracked by the ordinary tracker throughout the clip. The highlight later switches to ID 468, which is a different person, but the correct tracker box for the original target remains active. This is a probe issue (highlight_target_mismatch), not a tracker error."
+}

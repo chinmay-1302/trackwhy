@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, initially highlighted with ID 24, is tracked until the ID disappears around 00:02; the same physical person is subsequently detected and tracked with a new ID, 47, indicating a fragmentation event."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a yellow highlighted bounding box at the start of the clip. The target is a person wearing a dark jacket and dark pants. The target is visible throughout the clip, with the yellow highlight disappearing after the first few seconds. The target's tracker box remains consistent, with no duplicate tracks, identity changes, or missed detections. The target's motion is consistent with walking through the crowd, and the tracker follows the target reliably throughout the clip."
+}

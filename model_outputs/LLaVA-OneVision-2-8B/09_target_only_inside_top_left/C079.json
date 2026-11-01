@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a dark jacket and light pants walking on the right side of the frame. The target is consistently tracked by an ordinary tracker box with ID 246 throughout the clip. The colored highlight appears on this target at the start of the clip and remains on the same person as they move through the crowd. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable throughout the entire clip, with no missed detections or tracking errors. The tracker maintains continuous and accurate association with the intended physical person, even as they navigate through the busy train station environment and interact with other pedestrians."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a white shirt and dark pants, located on the right side of the frame near the building. The target remains visible and is consistently tracked by the ordinary tracker boxes throughout the clip. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target's visibility is fully maintained, and no visual conditions such as occlusion or poor illumination affect the tracking. The colored highlight appears intermittently but does not interfere with the correct tracking of the target."
+}

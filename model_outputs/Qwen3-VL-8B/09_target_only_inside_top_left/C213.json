@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a dark jacket crossing the street, is reliably followed by the tracker throughout the clip. The highlight is present at the start but disappears, while the correct tracker box remains active. This is a probe issue (highlight_missing), not a tracker error."
+}

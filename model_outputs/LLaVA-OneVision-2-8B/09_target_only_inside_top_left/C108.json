@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a light blue hoodie and white cap, initially highlighted in the center of the frame. The tracker maintains a consistent bounding box around this individual throughout the clip, with no instances of duplicate tracking, identity transfer, or drift. The target's motion is consistent with walking through the crowd, and the tracker box remains attached to the correct person even as the crowd density and movement change. The highlight disappears after the first few seconds, but the ordinary tracker box continues to follow the target reliably. No visual conditions such as occlusion, truncation, or poor illumination prevent the tracker from maintaining the target's identity. The probe issue is not present as the highlight initially corresponds to the correct target and does not cause any misclassification."
+}

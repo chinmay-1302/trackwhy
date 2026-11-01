@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, initially tracked as ID 1530, is occluded by a pillar and reappears with a new ID 1672, indicating a fragmentation event where the original track was lost and a new one was created."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a blue hoodie, initially highlighted in the upper left area. The tracker maintains a consistent bounding box around this person throughout the clip, even as they move and are partially occluded by other pedestrians. The target's track ID remains stable, with no instances of duplicate tracking, identity transfer, or drift observed. The target's visibility is partly obscured by other people in the crowd, but the tracker continues to follow the correct individual without error."
+}

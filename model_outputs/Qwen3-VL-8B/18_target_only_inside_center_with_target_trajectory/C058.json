@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, initially highlighted with ID 747, is followed by the tracker even after the highlight disappears. The tracker maintains correct association with the same physical person throughout the clip, with no identity change, drift, or miss. The highlight is missing for the remainder of the clip, but the ordinary tracker box remains active on the target."
+}

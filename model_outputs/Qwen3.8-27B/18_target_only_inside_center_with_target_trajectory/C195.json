@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The intended target is a pedestrian in the upper-left area who is consistently tracked by a single ID (1237) throughout the clip, with the highlight appearing and remaining on the correct person without any identity switch, drift, or missed detection."
+}

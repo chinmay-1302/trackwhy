@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in dark clothing standing near a pillar, tracked by ID 731 initially, then by ID 1182. The highlight incorrectly switches to a different person at 0:08, but the correct tracker box remains on the original target throughout the clip, indicating no tracker error."
+}

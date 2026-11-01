@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target can be followed reliably throughout the clip with no tracker errors or missing detections. The target remains clearly visible and identifiable, with no issues with occlusion, truncation, or poor visibility. The colored highlight is present and correctly maps to the intended physical person for the duration of the clip, with no mismatch or disappearance of the highlight. The tracker output is consistent and accurate, with no evidence of duplicate tracks, identity transfers, or fragmentation. The target's motion and position are accurately tracked, with no drift or incorrect attachment to other persons. The overall tracking performance is excellent, with no errors or issues that would prevent reliable classification of the target's behavior."
+}

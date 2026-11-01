@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person near a pillar, is consistently tracked by an ordinary tracker box with ID 731 from 0:00 to 0:04. The highlight disappears at 0:04, but the correct tracker box remains active. The person continues to be tracked by the same ID (731) through 0:12, with no identity change, drift, or miss. The highlight is missing but the tracker output is correct."
+}

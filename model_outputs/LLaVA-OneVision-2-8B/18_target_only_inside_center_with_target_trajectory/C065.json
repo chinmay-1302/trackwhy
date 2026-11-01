@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a blue hoodie in the lower left area of the frame. The tracker maintains a consistent bounding box on this person throughout the entire clip, with no instances of duplicate tracking, identity transfer, drift, or missed detection. The colored highlight initially appears on this person and remains consistent, indicating the tracker is correctly following the intended target without error."
+}

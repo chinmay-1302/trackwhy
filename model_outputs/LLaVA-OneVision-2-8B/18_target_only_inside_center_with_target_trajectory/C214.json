@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a light blue jacket and dark pants, initially highlighted near the statue on the left. The tracker follows this person as they move slightly to the right, remaining in the lower left area of the frame. The person is partially obscured by other pedestrians and the statue, leading to the partly visible classification. No tracker errors are observed; the target is consistently tracked with a single ID throughout the clip."
+}

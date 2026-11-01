@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket, located in the lower left area of the frame. This person remains consistently tracked throughout the entire clip, with no instances of duplicate tracking, identity transfer, drift, or missed detection. The tracker maintains a correct bounding box on the target person, who is fully visible and identifiable at all times. There are no probe or highlight issues affecting the target tracking, and the target's motion and position are consistent with normal pedestrian behavior in a crowded public space. The target's tracker output is reliable and accurate for the entire duration of the clip."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is initially highlighted with ID 212, a person in a blue jacket standing near the center of the frame. This person remains visible and identifiable throughout the clip, with no occlusion or disappearance. The tracker consistently maintains the correct bounding box and ID for this individual, with no identity switches, drift, or fragmentation observed. The target's position and appearance are consistent, and the tracker follows the person accurately without errors."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a brown jacket walking from the right side of the frame towards the center. The tracker maintains a consistent bounding box on this person throughout the clip, even as they move through the crowd. The person is occasionally occluded by other pedestrians, but the tracker correctly predicts their position and maintains the correct ID. The colored highlight is present initially but disappears after the first few seconds, but the tracker continues to follow the correct person without error. The visual conditions include crowd occlusion as the person moves through a dense crowd of pedestrians."
+}

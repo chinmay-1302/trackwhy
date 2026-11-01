@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, a person in a dark jacket walking away from the camera, is consistently tracked by a single ID (201) throughout the clip, with the highlight correctly following the target until it disappears, and no tracker errors are observed."
+}

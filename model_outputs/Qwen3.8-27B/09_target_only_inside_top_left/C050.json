@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The tracker initially follows a man in a black shirt (ID 30) on the right, but the track ID transfers to a different man in a blue shirt (ID 90) who enters the frame and walks in the same direction, indicating an identity transfer error."
+}

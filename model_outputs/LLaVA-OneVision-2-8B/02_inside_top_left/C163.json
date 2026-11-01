@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a white top and dark pants, initially highlighted on the right side of the frame. The tracker maintains a consistent bounding box around this person as they move through the crowd, with no significant occlusions or tracking errors observed. The target's visibility is partly obscured by other pedestrians at various points, but the tracker continues to follow the intended person accurately throughout the clip."
+}

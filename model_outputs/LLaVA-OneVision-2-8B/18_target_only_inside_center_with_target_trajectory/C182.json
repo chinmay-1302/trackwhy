@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a light blue jacket and dark pants, initially visible in the lower left area of the frame. The person moves slightly to the right and then forward, but is partially obscured by other people in the crowd. The tracker maintains a consistent bounding box around the target throughout the clip, with no errors in tracking or ID assignment. The visual conditions are challenging due to the dense crowd, which causes partial occlusion of the target."
+}

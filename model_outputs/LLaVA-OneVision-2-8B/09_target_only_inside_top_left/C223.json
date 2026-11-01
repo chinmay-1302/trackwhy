@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person in the white outfit highlighted in the lower right area. The tracker follows this person consistently throughout the clip, with no errors in tracking, identity changes, or missed detections. The target remains fully visible and identifiable, with no occlusions or visual conditions that would impede tracking. The highlight disappears after the first few seconds, but the correct tracker box remains on the target, and the tracker continues to follow the person accurately without any issues."
+}

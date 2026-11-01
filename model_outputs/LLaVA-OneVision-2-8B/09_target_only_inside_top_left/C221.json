@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a red hoodie and white hat, located on the right side of the frame near the entrance. The target remains consistently tracked by the ordinary tracker boxes throughout the clip, with no evidence of duplicate tracks, identity transfers, or missed detections. The colored highlight is present initially and remains on the correct target, with no mismatch or disappearance that would indicate a probe issue. The target's motion is consistent with walking towards the entrance, and the tracker maintains accurate localization despite the crowded environment."
+}

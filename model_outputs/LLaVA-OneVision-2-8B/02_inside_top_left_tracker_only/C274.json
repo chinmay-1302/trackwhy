@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is the person initially highlighted with ID 119, wearing a light blue jacket. The tracker correctly follows this person throughout the clip, maintaining consistent appearance, position, and motion. No identity switches, occlusions, or tracking errors occur, and the target remains clearly visible and identifiable at all times."
+}

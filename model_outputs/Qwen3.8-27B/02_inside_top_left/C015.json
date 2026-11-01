@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, a person walking away from the camera, is initially tracked with ID 92, but the track is lost and the same person is subsequently assigned a new ID (153) without a simultaneous duplicate track, indicating fragmentation."
+}

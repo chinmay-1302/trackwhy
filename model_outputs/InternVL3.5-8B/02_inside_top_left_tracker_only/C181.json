@@ -1,0 +1,13 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially highlighted with ID 27 is a person wearing a blue jacket. The tracker box follows this person as they move through the crowd, but at one point, the box drifts onto another person who is also moving. The original physical target remains identifiable throughout the clip."
+}

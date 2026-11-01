@@ -1,0 +1,13 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially highlighted with ID 101 is a person in a red jacket. The track ID follows this person until they move out of the frame and then attaches to another person moving in the same direction, indicating a drift to a moving person. The target remains partly visible throughout the clip."
+}

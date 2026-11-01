@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "duplicate_track",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially identified by the highlighted box with ID 165 experiences a duplicate track where another box with ID 27 appears on the same physical person, indicating simultaneous tracking of the same individual by multiple IDs."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a yellow vest, who is consistently tracked by the same tracker box throughout the clip. The yellow highlight initially appears on this person, and the tracker maintains a consistent association with them even as they move through the crowd. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable throughout the clip, with no missed detections or tracking errors observed."
+}

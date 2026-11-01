@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "identity_change_subtype": null,
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target, initially highlighted, is tracked correctly until it interacts with another person, after which the tracker box shifts to follow the moving person instead of the target."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a brown jacket walking through the crowd, initially highlighted as ID 852, then later as ID 840. The highlight mismatches the actual target at times, but the correct tracker box remains on the same person throughout the clip, indicating no tracker error."
+}

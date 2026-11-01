@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a green shirt, who is consistently tracked by the same ID throughout the clip. The colored highlight initially appears on this person and remains consistent with their tracking, indicating no probe issue. The tracker maintains a continuous and accurate detection of the target without any errors such as duplicate tracks, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable throughout the clip, with no missed detections or visual conditions that would impede tracking."
+}

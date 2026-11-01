@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a red jacket, visible in the lower right area of the frame. The target remains consistently tracked throughout the clip with no errors in detection, identity, or tracking. The colored highlight is present in the upper right corner, but it does not correspond to the intended target, indicating a highlight mismatch. The target's tracker box remains visible and correctly assigned to the person in the red jacket, with no occlusions or tracking issues observed."
+}

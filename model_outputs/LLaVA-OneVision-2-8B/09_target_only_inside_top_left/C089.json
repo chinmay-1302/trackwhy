@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a green shirt and black shorts, walking towards the camera. The tracker follows this person consistently throughout the clip, with no errors in tracking or identity changes. The colored highlight initially appears on this person and remains consistent, indicating the intended target. No tracker errors are observed."
+}

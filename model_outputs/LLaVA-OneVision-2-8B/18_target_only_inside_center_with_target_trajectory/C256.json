@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket, initially highlighted in the lower right area of the frame. The tracker maintains a consistent association with this individual throughout the clip, following their movement as they walk across the plaza. No significant occlusions or interactions with other people disrupt the tracking, and the target remains clearly visible and identifiable. The colored highlight disappears after the first few seconds, but the correct ordinary tracker box continues to follow the target without error. There are no instances of duplicate tracks, identity transfers, or missed detections, and the tracker maintains a stable and accurate association with the intended physical person for the entire duration of the clip."
+}

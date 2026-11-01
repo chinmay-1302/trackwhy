@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a green shirt and dark pants, located near the left side of the frame. The yellow highlighted box consistently tracks this person throughout the clip, with no errors in detection or tracking. The target's motion is consistent with walking towards the left side of the frame, and the tracker maintains a correct association with this person for the entire duration of the clip. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable at all times, with no occlusions or visual conditions that would impede detection. The colored highlight is present and correctly maps to the intended target for the entire clip, with no mismatch or missing highlight issues."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a red top and white pants, initially highlighted near the right side of the frame. The tracker maintains a consistent bounding box on this person as they move slightly to the right and then forward, with no ID switches or tracking errors observed. The target becomes partially occluded by other pedestrians and background elements, leading to reduced visibility, but the tracker continues to follow the person without loss of detection. No probe issues are observed, and the highlight remains consistent with the target throughout the clip."
+}

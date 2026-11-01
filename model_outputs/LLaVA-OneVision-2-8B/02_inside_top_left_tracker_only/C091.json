@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is the person with the yellow highlighted bounding box at the start of the clip. This person is tracked throughout the video, maintaining their identity and position without any errors or switches in tracker IDs. The target remains clearly visible and identifiable throughout the entire clip, with no occlusions or visual conditions that would impede detection. The tracker maintains a consistent association with the same physical person, with no identity changes, drift, or fragmentation observed. The target's trajectory is smooth and continuous, with no interruptions or missing detections. The colored highlight is used to establish the initial target, but the tracker correctly follows the same physical person even after the highlight disappears, maintaining the correct association with the target's tracker ID. No probe or highlight issues are observed, as the highlight is used appropriately to establish the initial target and the tracker maintains the correct association with the target's ID throughout the clip."
+}

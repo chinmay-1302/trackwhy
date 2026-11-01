@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a red top walking in the lower center of the frame, consistently tracked by ID 290. The highlight initially points to a different person (ID 356) and later to another (ID 379), but the correct tracker box for the target remains visible and correctly follows the person throughout the clip."
+}

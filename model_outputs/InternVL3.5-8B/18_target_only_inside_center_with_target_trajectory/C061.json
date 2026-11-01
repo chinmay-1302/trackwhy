@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "miss",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target's correct tracker box disappears during a crowded interval, and the person becomes partly occluded by the crowd, leading to a miss."
+}

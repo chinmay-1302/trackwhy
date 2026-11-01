@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The highlighted target (ID 1396) is consistently tracked with a single ID throughout the clip as the person walks into the frame and moves through the crowd, with no evidence of identity switches, fragmentation, or missed detections."
+}

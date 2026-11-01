@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket, located in the lower left area of the frame. The target remains consistently tracked by the ordinary tracker boxes throughout the clip, with no evidence of duplicate tracks, identity transfers, or missed detections. The colored highlight is present in the lower right corner of the frame, but it does not correspond to the intended target. The target's tracker box remains visible and correctly assigned to the same physical person for the entire duration of the clip, with no interruptions or changes in tracking. The target's motion is consistent with normal pedestrian movement, and there are no occlusions or other factors that would cause a tracking error. The target's visibility is fully maintained throughout the clip, with no signs of occlusion, truncation, or other visual conditions that would affect tracking. The tracker output is reliable and accurate, with no errors or inconsistencies."
+}

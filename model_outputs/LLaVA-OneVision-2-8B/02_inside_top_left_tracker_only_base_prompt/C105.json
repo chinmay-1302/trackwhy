@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is consistently tracked by the ordinary tracker boxes throughout the clip, with no evidence of duplicate tracks, identity changes, or missed detections. The colored highlight is present initially and remains on the correct target, with no mismatch or disappearance indicating a probe issue. The target maintains visibility and is clearly observable at all times."
+}

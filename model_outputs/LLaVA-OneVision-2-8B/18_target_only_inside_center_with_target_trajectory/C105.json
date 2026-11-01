@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a green and black checkered shirt, who is consistently tracked by a yellow highlighted bounding box throughout the clip. The target moves from the background towards the foreground, passing by other pedestrians without any occlusions or interactions that would cause a tracker error. The yellow highlight remains consistently on the same physical person, indicating no mismatch or ghost detection. The tracker maintains a correct association with the target for the entire duration of the clip, with no missed detections, identity changes, or drift observed."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a red jacket walking near the bottom right of the frame. The tracker correctly follows this person throughout the clip. The colored highlight is present at the start but disappears after 0:04, while the ordinary tracker box remains active on the target. This is a highlight issue, not a tracker error."
+}

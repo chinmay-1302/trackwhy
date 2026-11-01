@@ -1,0 +1,585 @@
+
+You are evaluating the output of a Multi-Object Tracker (MOT) from a short video clip.
+
+This is a TRACKER-ONLY visualization.
+
+The intended target is indicated by a colored/highlighted tracker bounding box during at least the initial reliable part of the clip. Other tracker bounding boxes and track IDs are shown normally without the special highlight.
+
+IMPORTANT: the colored highlight is primarily used to establish which PHYSICAL PERSON is the target and which tracker identity initially belongs to that person.
+
+If the target later changes track ID, the successor track may not be specially highlighted. This is expected.
+
+Your job is to re-associate the same PHYSICAL PERSON with ordinary tracker boxes using appearance, location, motion, expected trajectory, temporal continuity, surrounding people, occlusion reasoning, and track IDs.
+
+Do not require the target's later box to be highlighted.
+
+Think through the video internally before answering. Return only the final JSON.
+
+TARGET IDENTIFICATION
+
+First determine which PHYSICAL PERSON is the intended target from the earliest reliable highlighted portion of the clip.
+
+Use:
+
+* appearance,
+* clothing,
+* body shape,
+* position,
+* motion direction,
+* surrounding people,
+* tracker box,
+* and track ID.
+
+Once the target physical person is established, that PHYSICAL PERSON remains the target for the complete clip.
+
+The target is NOT:
+
+* whichever box is currently highlighted,
+* whichever person has the original track ID,
+* or whichever person is easiest to see.
+
+If the original target later receives another tracker ID, continue following the same physical person under the new ordinary non-highlighted box.
+
+If the original highlighted ID later follows another physical person, do not redefine that other person as the target.
+
+TRACKER-ONLY HIGHLIGHT RULE
+
+The colored highlight is a target-selection seed, not a guarantee that the target's current tracker box will always be specially marked.
+
+After an ID switch, fragmentation, transfer, drift, or other tracker identity event:
+
+* the target's new box may not be highlighted;
+* this is expected;
+* search ordinary tracker boxes for the same physical person;
+* determine which tracker ID now belongs to that person;
+* continue evaluating the target using that ordinary box.
+
+The absence of a highlight on a successor track after an identity change is NOT highlight_missing.
+
+Example:
+
+Target person A initially has highlighted ID 43.
+
+A becomes occluded.
+
+The same physical person A later appears with ordinary non-highlighted ID 343.
+
+If ID 343 represents the continuation of person A, follow ID 343 even though it is not highlighted.
+
+This may be an identity_change such as fragmentation.
+
+Do not classify the missing highlight on ID 343 as a probe error.
+
+FOLLOW BOTH PERSON AND IDs
+
+Internally maintain two kinds of continuity:
+
+PHYSICAL CONTINUITY:
+Which person is the original target?
+
+TRACK-ID CONTINUITY:
+Which physical person owns each relevant tracker ID over time?
+
+These may separate during tracker errors.
+
+Whenever an identity interaction occurs, explicitly determine:
+
+1. Where is the original physical target after the event?
+2. What tracker box and ID, if any, now belong to the target?
+3. Where did the target's old ID go?
+4. If the target has a new ID, where did that ID come from?
+5. Are multiple IDs simultaneously active on the same target?
+
+Use ordinary non-highlighted boxes as important evidence.
+
+OCCLUSION AND RE-ASSOCIATION
+
+Do not stop following the target when:
+
+* the highlight disappears,
+* the original tracker box disappears,
+* the target becomes occluded,
+* the camera moves,
+* or another person crosses in front.
+
+Use appearance before and after the event, expected motion path, position, timing, direction, and nearby people to determine which person after the event is the continuation of the original target.
+
+Do not simply attach to the nearest visible box.
+
+Do not simply continue following the original track ID.
+
+The physical person defines the target.
+
+ANNOTATION STATUS
+
+Choose exactly one:
+
+valid:
+The physical target can be followed reliably enough to classify tracker behavior.
+
+ambiguous:
+The physical target can be identified, but the tracker event cannot be classified reliably from the visible evidence.
+
+target_not_identifiable:
+You cannot reliably establish or maintain the physical identity of the intended target.
+
+Failure of the successor track to receive a highlight is NOT a reason to use ambiguous or target_not_identifiable.
+
+You must re-associate the physical target even when successor tracks are not highlighted.
+
+PRIMARY TRACKER ERROR
+
+For valid clips choose exactly one:
+
+no_error
+miss
+identity_change
+drift
+
+Do not choose no_error by default.
+
+Check the entire target trajectory before deciding.
+
+Use the following procedure.
+
+DUPLICATE TRACK CHECK
+
+First ask:
+
+Is the SAME physical target represented by multiple simultaneously active tracker IDs?
+
+If yes:
+
+primary_error = identity_change
+identity_change_subtype = duplicate_track
+
+duplicate_track means two or more tracker boxes/IDs represent the same physical person at overlapping times.
+
+Example:
+
+Target initially has ID A.
+
+Then ID B appears on the same target while ID A is still active.
+
+Both tracks overlap on the same physical person.
+
+This is duplicate_track.
+
+The tracks do not need to be highlighted.
+
+Inspect ordinary tracker boxes carefully.
+
+Do not confuse duplicate_track with fragmentation.
+
+duplicate_track:
+ID A and ID B coexist on the same physical person.
+
+fragmentation:
+ID A is interrupted/lost and later the target receives ID B.
+
+DRIFT CHECK
+
+If there is no duplicate track, ask:
+
+Does a track that belonged to the target begin attaching to and following a DIFFERENT physical person?
+
+If the dominant tracker failure is a target track spatially moving or attaching onto another person:
+
+primary_error = drift
+
+Use:
+
+to_moving_person:
+the track drifts onto another person who is moving.
+
+to_standing_person:
+the track drifts onto another person who is standing or stationary.
+
+IMPORTANT:
+
+If the originally highlighted ID continues onto another person, the colored highlight may continue following that ID.
+
+Do not follow that highlight and redefine the other person as the target.
+
+Instead:
+
+* continue following the ORIGINAL physical target using ordinary boxes;
+* separately follow the original ID to see which person it now tracks.
+
+A highlight following the original tracker ID onto another person can be evidence of a tracker error rather than a probe/highlight error.
+
+IDENTITY TRANSFER CHECK
+
+If drift does not best describe the event, check whether an EXISTING ID transfers between distinct physical people.
+
+Use:
+
+primary_error = identity_change
+identity_change_subtype = identity_transfer
+
+when an existing tracker ID changes physical owner.
+
+This can happen in either direction:
+
+* the target inherits another person's existing ID; or
+* another person inherits an ID that previously belonged to the target.
+
+Trace ID ownership explicitly.
+
+Ask:
+
+* Who had the target's old ID before the interaction?
+* Who has that ID afterward?
+* What ID does the target have afterward?
+* Did the target's new ID previously belong to another person?
+
+Example:
+
+Before:
+Target A = ID 10
+Person B = ID 20
+
+After:
+Target A = ID 20
+
+ID 20 existed before and belonged to person B.
+
+This is identity_transfer.
+
+Another possible transfer:
+
+Before:
+Target A = ID 10
+Person B = ID 20
+
+After:
+Person B = ID 10
+Target A receives another ID.
+
+The existing ID 10 has transferred between physical people.
+
+This can also be identity_transfer.
+
+Do not require the target's new ID to be highlighted. It may appear only as an ordinary box.
+
+FRAGMENTATION CHECK
+
+Use:
+
+primary_error = identity_change
+identity_change_subtype = fragmentation
+
+when the target's track is interrupted or lost and the same physical target later receives a newly created or restarted ID.
+
+Typical pattern:
+
+Target = ID A.
+
+The target becomes occluded or loses detection.
+
+ID A is interrupted.
+
+The same physical target later appears with ordinary ID B.
+
+ID B was not visibly active on another person before being assigned to the target.
+
+This is fragmentation even if ID B is never specially highlighted.
+
+Before choosing fragmentation, check whether ID B already belonged to another person.
+
+If it did, consider identity_transfer instead.
+
+If A and B overlap simultaneously on the target, use duplicate_track instead.
+
+DRIFT VS IDENTITY TRANSFER
+
+These may look similar.
+
+Use drift when the dominant visible event is that the target's track/box attaches spatially and continues following another physical person.
+
+Use identity_transfer when the dominant event is that an existing track ID changes ownership between distinct physical people.
+
+Always inspect:
+
+* the original physical target,
+* its original ID,
+* the person now carrying that ID,
+* and the target's new ordinary tracker box.
+
+If the visible evidence cannot reliably distinguish them, use annotation_status = ambiguous rather than forcing a label.
+
+MISS CHECK
+
+If duplicate_track, drift, and identity_change do not better explain the event, ask:
+
+Is there a relevant interval where the physical target has no correct ordinary tracker detection/track?
+
+If yes:
+
+primary_error = miss
+
+A miss may occur while the target is:
+
+* fully visible,
+* partly visible,
+* heavily occluded,
+* or completely hidden.
+
+A target can still be a miss when heavily or completely occluded in this evaluation.
+
+However, do not automatically classify every natural disappearance as miss.
+
+If the target is tracked correctly until becoming completely unobservable and remains unobservable through the end of the clip, track disappearance alone may not be sufficient evidence of a miss.
+
+Look at the actual timing of detection loss.
+
+Strong miss evidence includes:
+
+* the target remains visibly observable after the correct box disappears;
+* detection disappears before complete occlusion;
+* the target is visibly present before its first detection;
+* the target reappears but remains temporarily undetected;
+* a detection gap occurs and later the SAME ID resumes.
+
+A detection gap followed by the same target receiving a DIFFERENT newly created ID should normally be fragmentation rather than only miss.
+
+A missing special highlight is not a miss if an ordinary correct tracker box still exists.
+
+NO ERROR
+
+Only choose:
+
+primary_error = no_error
+
+after ruling out:
+
+* duplicate_track,
+* drift,
+* identity transfer,
+* fragmentation,
+* and miss.
+
+Use no_error when the physical target remains correctly tracked throughout the relevant observable trajectory.
+
+A target may be:
+
+* heavily occluded,
+* surrounded by crowd,
+* small,
+* poorly localized,
+* or eventually completely unobservable
+
+without necessarily having a tracker error.
+
+Do not interpret the expected lack of successor highlighting as an error.
+
+MISS VISIBILITY
+
+Only when primary_error = miss, classify target_visibility during the actual missing interval.
+
+Choose exactly one:
+
+fully_visible:
+The target remains clearly visually observable and identifiable during the miss.
+
+The complete body does not need to be inside the image.
+
+partly_visible:
+A substantial part of the target is hidden or outside the image, but some visible portion remains.
+
+not_visible:
+The target is completely or almost completely visually hidden during the relevant missing interval.
+
+uncertain:
+Visibility cannot be reliably determined.
+
+Visibility and visual conditions are separate.
+
+A target can be fully_visible while also being truncated, small, dark, or blurry.
+
+For non-miss cases:
+
+target_visibility = null
+
+MISS VISUAL CONDITIONS
+
+Only when primary_error = miss, select every clearly relevant condition.
+
+Allowed labels:
+
+static_occlusion:
+A static scene object such as a tree, pole, pillar, sign, standee, wall, building, statue, counter, or similar object occludes the target.
+
+single_person_occlusion:
+One other person substantially occludes the target.
+
+crowd_occlusion:
+Multiple people or a dense crowd substantially occlude the target.
+
+truncation:
+Part of the target lies outside the image boundary.
+
+small_or_far:
+The target appears very small or far from the camera.
+
+dark:
+Poor illumination makes the target difficult to see.
+
+blurry:
+The target is visibly blurred or lacks sufficient sharp visual detail.
+
+Do not use blurry merely because the target is small.
+
+background_blend:
+The target blends into the background due to color, contrast, texture, or appearance.
+
+crowd_clutter:
+Nearby people make the target difficult to distinguish even when they are not substantially covering the target.
+
+Do not use crowd_clutter simply because a crowd exists.
+
+no_obvious_visual_trigger:
+A miss occurs but none of the other listed conditions clearly explains the difficulty.
+
+Use no_obvious_visual_trigger only when no other condition clearly applies.
+
+Multiple labels may apply.
+
+Judge conditions around the actual missed interval and the original physical target.
+
+For non-miss cases:
+
+visual_conditions = []
+
+TRACKER-ONLY PROBE/HIGHLIGHT ISSUES
+
+Evaluate visualization/probe problems separately from tracker errors.
+
+Allowed labels:
+
+ghost_detection_highlighted:
+The special highlight marks a tracker detection that does not correspond to a real person.
+
+Do not treat a ghost ID as the physical target's identity unless reliable later evidence establishes the target.
+
+highlight_missing:
+Use this only when the SAME tracker track that is expected to remain highlighted is still present on the same physical target, but the special highlight unexpectedly disappears.
+
+IMPORTANT:
+
+Do NOT use highlight_missing merely because the target changed to a new tracker ID and the new successor track is not highlighted.
+
+The lack of highlight on a successor ID after an identity switch is expected.
+
+highlight_target_mismatch:
+Use this only when the visualization highlight itself incorrectly maps to another real person in a way that is not explained by normal tracker-ID continuity.
+
+IMPORTANT:
+
+If the originally highlighted tracker ID genuinely transfers, drifts, or continues onto another person, and the highlight correctly continues following that SAME tracker ID, this is primarily evidence of a TRACKER identity error.
+
+Do not automatically call that highlight_target_mismatch.
+
+target_mapping_ambiguous:
+Use when the visualization itself gives conflicting target-selection cues and the intended initial physical target cannot be reliably established.
+
+Do not use target_mapping_ambiguous simply because the successor target track is unhighlighted.
+
+The need to associate an unhighlighted successor track is intentional.
+
+CONFIDENCE
+
+Return exactly one:
+
+high:
+Clear visual and temporal evidence supports the classification.
+
+medium:
+One interpretation is more likely, but meaningful uncertainty remains.
+
+low:
+Evidence is weak or difficult to interpret.
+
+OUTPUT
+
+Return only valid JSON using exactly this structure:
+
+{
+"annotation_status": "valid|ambiguous|target_not_identifiable",
+"primary_error": "no_error|miss|identity_change|drift|null",
+"identity_change_subtype": "fragmentation|identity_transfer|duplicate_track|null",
+"drift_subtype": "to_moving_person|to_standing_person|null",
+"target_visibility": "fully_visible|partly_visible|not_visible|uncertain|null",
+"visual_conditions": [],
+"probe_issue": {
+"present": false,
+"types": []
+},
+"confidence": "high|medium|low",
+"explanation": "One concise sentence describing what happened to the original physical target and its tracker identities."
+}
+
+Final rules:
+
+1. The colored highlight establishes the initial physical target; it does not define the target forever.
+
+2. The PHYSICAL PERSON remains the target throughout the complete clip.
+
+3. After an identity switch, actively search ordinary non-highlighted boxes for the same physical target.
+
+4. A new target track does not need to be highlighted.
+
+5. Lack of highlight on a successor track is expected and is not highlight_missing.
+
+6. Never follow a highlighted old ID onto another person and redefine that person as the target.
+
+7. When physical-target continuity and track-ID continuity separate, follow both independently.
+
+8. Use ordinary non-highlighted tracker boxes as first-class evidence.
+
+9. Simultaneous multiple IDs on the same physical target -> duplicate_track.
+
+10. Interrupted old ID followed by a newly created/restarted target ID -> fragmentation.
+
+11. Existing ID changes ownership between physical people -> identity_transfer.
+
+12. Target track spatially attaches and continues onto another person -> consider drift.
+
+13. Do not require identity-change successor IDs to be specially highlighted.
+
+14. A tracker identity error is not automatically a probe/highlight error.
+
+15. If the same original tracker ID continues onto another person and the highlight follows that ID, treat this as tracker evidence, not automatically highlight_target_mismatch.
+
+16. Missing highlight while the same correct expected highlighted track remains can be highlight_missing.
+
+17. Do not choose no_error until you have examined the entire physical-target trajectory.
+
+18. A missing highlight is not a tracker miss if the target has a correct ordinary tracker box.
+
+19. Visibility and miss visual conditions are independent.
+
+20. Use blurry only for visible blur/loss of sharpness.
+
+21. If annotation_status is not valid:
+    primary_error = null
+    identity_change_subtype = null
+    drift_subtype = null
+    target_visibility = null
+    visual_conditions = []
+
+22. Use identity_change_subtype only when primary_error = identity_change.
+
+23. Use drift_subtype only when primary_error = drift.
+
+24. Use target_visibility and visual_conditions only when primary_error = miss.
+
+25. Set probe_issue.present = true if and only if probe_issue.types is non-empty.
+
+26. Do not invent unreadable track IDs.
+
+27. Ignore unrelated tracker errors unless needed to understand the intended target.
+
+28. Return only allowed labels.
+
+29. Return no markdown or text outside the JSON.

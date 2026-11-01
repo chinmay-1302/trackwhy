@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a blue jacket near a statue, is consistently tracked by an ordinary tracker box with ID 385. The colored highlight initially appears on a different person (ID 357) and then disappears, but the correct tracker box remains active on the target throughout the clip, indicating no tracker error."
+}

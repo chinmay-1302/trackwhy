@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a dark jacket, is consistently tracked by the ordinary tracker box with ID 149 throughout the clip. The colored highlight initially marks this person (ID 53 at 0:00, then 149 at 0:04) but disappears after 0:04, while the correct tracker box remains active. This is a highlight issue, not a tracker error."
+}

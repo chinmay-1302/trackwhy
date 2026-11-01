@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a green shirt who is tracked consistently throughout the clip. The target is occluded by other people in the crowd, leading to a miss in visibility. The tracker maintains the correct ID on the target even during occlusion, with no errors in identity transfer, drift, or duplicate tracks observed."
+}

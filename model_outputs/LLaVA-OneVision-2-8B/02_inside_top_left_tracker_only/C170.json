@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is the person in the yellow highlighted box on the right side of the frame. This person is tracked consistently throughout the video, with no identity changes, drift, or misses. The tracker maintains correct association with the target person, and the target remains fully visible throughout the clip."
+}

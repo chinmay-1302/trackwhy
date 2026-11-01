@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person highlighted by the yellow bounding box. The target remains consistently tracked by the same tracker ID throughout the clip, with no evidence of duplicate tracks, identity transfer, fragmentation, or missed detections. The target's motion and position are continuously monitored, and the tracker maintains correct association with the intended physical person even as the highlight disappears. No visual conditions or occlusions prevent the tracker from maintaining its association with the target."
+}

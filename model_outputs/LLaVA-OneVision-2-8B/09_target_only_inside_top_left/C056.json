@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a light blue hoodie located in the lower left area of the frame. This person remains consistently tracked throughout the entire clip with no errors in detection, tracking, or identity assignment. The tracker maintains a correct bounding box on this individual from the start to the end of the video, with no instances of occlusion, crossing, or interaction with other people that would cause a tracking failure. The colored highlight in the lower left corner correctly identifies this target for the duration of the clip, and there are no issues with the tracker's performance on this person. The target's motion is consistent with normal pedestrian movement, and the tracker accurately follows their path as they walk across the plaza area. No other individuals exhibit the same appearance or consistent tracking behavior that would suggest a different target. The overall tracking performance is reliable and accurate for the intended target."
+}

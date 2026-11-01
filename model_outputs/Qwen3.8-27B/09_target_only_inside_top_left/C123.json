@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, a person in a dark top and light pants walking towards the camera, is consistently tracked by a single ID (101) throughout the clip, with the highlight correctly appearing on the target in the latter half without any identity switches, duplicates, or missed detections."
+}

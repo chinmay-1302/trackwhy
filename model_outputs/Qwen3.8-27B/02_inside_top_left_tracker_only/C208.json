@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, a person in a white shirt and dark shorts, is initially tracked with ID 21. The track is lost around 00:04, and the same physical person is subsequently detected with a new ID, 13, indicating a fragmentation event."
+}

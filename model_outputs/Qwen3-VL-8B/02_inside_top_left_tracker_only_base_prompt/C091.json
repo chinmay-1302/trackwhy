@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target, marked by the yellow highlight at the beginning, is consistently tracked by the same ordinary tracker box (ID 24) throughout the clip, even as the highlight disappears. No tracker errors or visibility issues are observed."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a light blue jacket standing near the entrance of a building, who remains consistently tracked by an ordinary tracker box throughout the clip. The colored highlight is present at the start but not necessary for tracking, as the ordinary tracker box reliably follows the target. No tracker errors occur."
+}

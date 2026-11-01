@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a green shirt, who is consistently tracked throughout the clip. The tracker maintains a correct bounding box on this person, with no instances of duplicate tracking, drift, identity transfer, or fragmentation. The target's visibility remains fully observable, and there are no visual conditions causing the miss. The colored highlight is present and correctly maps to the intended target for the duration of the clip."
+}

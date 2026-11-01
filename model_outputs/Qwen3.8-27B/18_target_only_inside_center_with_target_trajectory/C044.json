@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The physical target, a pedestrian in dark clothing walking away from the camera in the upper-middle crowd, is consistently tracked by a single tracker ID throughout the clip without evidence of identity transfer, fragmentation, or missed detection intervals."
+}

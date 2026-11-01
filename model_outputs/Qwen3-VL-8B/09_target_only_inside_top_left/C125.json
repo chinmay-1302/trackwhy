@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a dark jacket standing near a white pillar, who is tracked by ID 1157. The highlight initially correctly identifies this person but later mismatches, highlighting a different person. The tracker itself remains correct, continuously following the intended target without error."
+}

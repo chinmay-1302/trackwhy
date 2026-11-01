@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "identity_change_subtype": null,
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_clutter"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The target initially highlighted with ID 25 is a person walking towards the camera. The tracker follows this person but drifts onto another moving person as they cross paths, indicating a drift error to a moving person. The target remains partly visible throughout the clip, with crowd clutter making tracking challenging."
+}

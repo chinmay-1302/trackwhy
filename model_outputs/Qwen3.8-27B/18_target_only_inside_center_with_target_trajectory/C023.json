@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The tracker initially follows the target (ID 103) but, during a crowd interaction, the ID transfers to a different physical person walking in the opposite direction, while the original target is no longer tracked by that ID."
+}

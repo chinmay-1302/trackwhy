@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a dark jacket and light pants walking in the crowd. The tracker follows the person consistently, with the yellow highlight initially marking the target. The target moves through the crowd, occasionally occluded by other people, but the tracker maintains the correct association. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target visibility is partly visible due to crowd occlusion, and the visual condition is crowd occlusion."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, a woman in a grey top and jeans, is consistently tracked by ID 50 from her appearance on the right side of the frame until the end of the clip, with no identity switches, fragmentation, or drift observed."
+}

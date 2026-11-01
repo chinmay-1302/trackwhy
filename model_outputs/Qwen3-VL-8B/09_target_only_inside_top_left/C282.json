@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a dark jacket walking across the plaza, is consistently tracked by an ordinary tracker box throughout the clip. The colored highlight is present at the start but disappears, indicating a highlight issue rather than a tracker error. The tracker correctly follows the target without any identity change, drift, or miss."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person walking near the building entrance, who is correctly tracked by an ordinary tracker box throughout the clip. The colored highlight incorrectly switches to a different person at 0:03 and again at 0:06, but the correct tracker box remains on the intended target, indicating no tracker error."
+}

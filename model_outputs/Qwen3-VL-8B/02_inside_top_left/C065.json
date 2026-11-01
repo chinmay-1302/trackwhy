@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, initially highlighted as 228, is correctly tracked by the ordinary tracker box with ID 228 until it disappears. The highlight then reappears on a different person (ID 267) who is not the original target. The tracker correctly continues following the original target's motion path after the highlight disappears, indicating no tracker error. The highlight is missing for the original target after frame 4.5, but the correct tracker box remains active."
+}

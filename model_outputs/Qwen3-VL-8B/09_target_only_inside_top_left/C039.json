@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, indicated by the yellow highlight, is not consistently visible as a distinct person, and the highlight disappears after the initial frames. However, the correct tracker box remains active on the same physical person throughout the clip, indicating no tracker error. The highlight's absence is a probe issue, not a tracker error."
+}

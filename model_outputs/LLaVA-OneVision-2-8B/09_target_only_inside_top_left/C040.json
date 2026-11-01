@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a light blue jacket and dark pants, initially highlighted in the lower left area of the frame. The target moves slowly towards the center of the frame, navigating through the crowd. The target's tracker box remains consistently attached to the same person throughout the clip, with no instances of duplicate tracking, identity transfer, or drift. The target becomes partially occluded by other pedestrians and the surrounding crowd, leading to a temporary loss of visibility, which is classified as a miss. The visual conditions causing the miss are primarily due to crowd occlusion, as the target is surrounded by many other people, making it difficult to distinguish. The colored highlight is present initially but disappears as the target moves, which is not a tracker error but rather the highlight being removed. The target's tracker box remains visible and correctly follows the person even after the highlight is gone, indicating no tracker error. The target's visibility is partly visible due to the crowd occlusion, and the visual condition is crowd occlusion. There are no probe issues as the highlight is not marking a ghost detection or a different person. The target is correctly tracked throughout the clip, with no errors in the tracker output."
+}

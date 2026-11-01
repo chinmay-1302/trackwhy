@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket, initially highlighted near the top of the frame. The tracker maintains a consistent bounding box on this person as they move through the crowd, with no evidence of duplicate tracks, identity transfer, or drift. The target becomes partially occluded by other pedestrians, leading to a temporary loss of visibility, but the tracker continues to follow the correct person. The visual conditions include crowd occlusion, which explains the partial visibility of the target during the relevant interval."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "miss",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The target, initially highlighted, becomes partly occluded by the crowd, leading to a miss in tracking despite the correct ordinary tracker box being present."
+}

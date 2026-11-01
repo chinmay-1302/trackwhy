@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is initially highlighted with ID 2006. The target remains visible and tracked throughout the clip, with no interruptions or identity switches. The tracker maintains correct association with the physical target, and no errors are observed."
+}

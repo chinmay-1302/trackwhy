@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "identity_change_subtype": null,
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The intended target is a person in a blue jacket near the building entrance. The highlight disappears, and the target's tracker box shifts to follow a different person moving through the crowd, indicating a drift to a moving person. The target remains partly visible amidst crowd occlusion."
+}

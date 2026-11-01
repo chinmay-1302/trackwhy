@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, indicated by the yellow highlight, is not consistently the same physical person throughout the clip. The highlight initially marks a person (ID 1334) but later shifts to another person (ID 1301) while the original target remains tracked by its correct ID (1334) and continues moving normally. This is a probe issue, not a tracker error, as the tracker correctly follows the original target."
+}

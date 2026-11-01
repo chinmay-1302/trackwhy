@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a light blue jacket walking from the left side of the frame towards the center. The highlight is missing from the start of the clip, but the target can be followed using ordinary tracker boxes. The target is partially occluded by other people in the crowd, leading to the partly visible classification. The primary error is no_error as the target is correctly tracked throughout the clip despite the missing highlight and partial occlusion by the crowd."
+}

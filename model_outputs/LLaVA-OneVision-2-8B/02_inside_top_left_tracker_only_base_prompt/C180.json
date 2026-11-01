@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is tracked consistently throughout the clip, with no evidence of tracker errors such as duplicate tracks, drift, identity transfer, or fragmentation. The target's visibility is partly obscured by surrounding people, but the tracker maintains correct association with the target's bounding box. The colored highlight is not used to determine the target's identity, and the tracker continues to follow the same physical person even when the highlight is absent."
+}

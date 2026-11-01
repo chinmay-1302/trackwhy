@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, tracked by ID 52, is visible throughout the clip, and the tracker maintains consistent association with the same physical person. The colored highlight disappears after the initial frames, but the correct tracker box remains active, indicating no tracker error."
+}

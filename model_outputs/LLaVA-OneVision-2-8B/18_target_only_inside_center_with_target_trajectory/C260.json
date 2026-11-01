@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing an orange safety vest, who remains consistently tracked throughout the clip. The colored highlight initially appears on this person and stays attached to them as they move through the crowd. There are no instances of duplicate tracking, identity transfer, or drift. The tracker maintains a correct association with the target even as they navigate through the busy environment, with no missed detections or incorrect ID assignments. The target's visibility remains clear and unobscured by other people or objects, and the highlight accurately follows the target's movement without any mismatch or ambiguity."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a yellow jacket, initially highlighted in the upper left area of the frame. The target is consistently tracked by an ordinary tracker box throughout the clip, moving from the upper left towards the center of the frame. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable at all times, with no missed detections or visual conditions that would obscure the target. The colored highlight disappears after the initial frames, but the correct ordinary tracker box remains on the target, indicating no probe issue. The tracker output is reliable and consistent with the target's motion and appearance."
+}

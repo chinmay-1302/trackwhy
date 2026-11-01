@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is tracked correctly throughout the clip, with the highlight initially indicating the correct person. The target moves through the crowd, and the tracker maintains the correct bounding box and ID. The target becomes partly visible due to crowd occlusion, but the tracker does not lose the correct ID. No errors in tracking or ID assignment are observed."
+}

@@ -1,0 +1,125 @@
+<View>
+  <Style>
+    .lsf-main-content { max-width: 1600px; }
+    .lsf-richtext__container { font-size: 15px; }
+  </Style>
+
+  <!-- ============================================================
+       IMPORT NOTES (delete this comment before use if you prefer)
+
+       $clip_id  MUST be an opaque code (C001 ... C284).
+                 NEVER pass the internal event_id — it contains
+                 FN / IDSW / the sequence name and leaks question 1.
+                 Keep the opaque -> event_id mapping in a file the
+                 annotators do not have.
+
+       $video    Path/URL to out/probe_clips/clips/{event_id}.mp4
+                 NEVER import from out/probe_clips/audit/ — those
+                 render full ground truth.
+
+       framerate MUST match the encode (10 fps), or the timeline
+                 and frame stepping will be wrong.
+       ============================================================ -->
+
+  <Header value="Clip $clip_id"/>
+
+  <Text name="instructions"
+        value="A highlighted numbered box is the track the program was following. At some point something goes wrong with it. When it vanishes, you will have to find the person yourself — that is part of the task. Watch the whole clip once before answering."/>
+
+  <Video name="video" value="$video" framerate="10" height="720"/>
+
+  <!-- ============ Step 1 ============ -->
+  <Header value="1. What kind of mistake happened?"/>
+  <Text name="kind_hint"
+        value="miss = box disappears (same number returns, or never returns). identity_change = box returns with a DIFFERENT number. drift = box slides off onto somebody else."/>
+  <Choices name="error_kind" toName="video" choice="single-radio"
+           showInLine="false" required="true">
+    <Choice value="miss" hotkey="1"/>
+    <Choice value="identity_change" hotkey="2"/>
+    <Choice value="drift" hotkey="3"/>
+    <Choice value="no_error_visible" hotkey="4"/>
+    <Choice value="could_not_identify_target" hotkey="5"/>
+    <Choice value="cannot_determine" hotkey="6"/>
+  </Choices>
+
+  <!-- ============ Step 2A — MISS ============ -->
+  <View visibleWhen="choice-selected" whenTagName="error_kind" whenChoiceValue="miss">
+    <Header value="2. While the box was gone, could you see the target with your own eyes?"/>
+    <Choices name="visibility" toName="video" choice="single-radio" showInLine="true">
+      <Choice value="not_at_all" hotkey="q"/>
+      <Choice value="partly" hotkey="w"/>
+      <Choice value="clearly" hotkey="e"/>
+      <Choice value="cannot_tell" hotkey="r"/>
+    </Choices>
+
+    <Header value="3. What was going on?"/>
+    <Text name="crowd_hint"
+          value="One person vs crowd: delete the single biggest blocker in your head. Still hidden? = crowd.   Standing vs moving: compare the first and last frame of the clip.   Check partly_outside_the_frame BEFORE clearly_visible_but_missed."/>
+    <Choices name="cause_miss" toName="video" choice="single-radio" showInLine="false">
+      <Choice value="hidden_by_object" hotkey="a"/>
+      <Choice value="hidden_by_one_person" hotkey="s"/>
+      <Choice value="hidden_by_standing_person" hotkey="d"/>
+      <Choice value="hidden_by_crowd" hotkey="f"/>
+      <Choice value="partly_blocked_by_person" hotkey="g"/>
+      <Choice value="partly_blocked_by_static" hotkey="h"/>
+      <Choice value="partly_outside_the_frame" hotkey="j"/>
+      <Choice value="clearly_visible_but_missed" hotkey="k"/>
+      <Choice value="cannot_determine" hotkey="l"/>
+    </Choices>
+  </View>
+
+  <!-- Sibling, not nested: keyed on cause_miss -->
+  <View visibleWhen="choice-selected" whenTagName="cause_miss"
+        whenChoiceValue="clearly_visible_but_missed">
+    <Header value="3b. Anything that made them hard to spot? (select all that apply)"/>
+    <Choices name="hard_to_spot" toName="video" choice="multiple" showInLine="true">
+      <Choice value="very_small_or_far"/>
+      <Choice value="blurry"/>
+      <Choice value="dark"/>
+      <Choice value="unusual_posture"/>
+      <Choice value="blends_with_background"/>
+      <Choice value="packed_among_many_people"/>
+      <Choice value="nothing_obvious"/>
+    </Choices>
+  </View>
+
+  <!-- ============ Step 2B — IDENTITY CHANGE ============ -->
+  <View visibleWhen="choice-selected" whenTagName="error_kind"
+        whenChoiceValue="identity_change">
+    <Header value="2. What happened in between?"/>
+    <Text name="idsw_hint"
+          value="changed_for_no_visible_reason is a legitimate answer. Do not hunt for an explanation that is not there."/>
+    <Choices name="cause_idsw" toName="video" choice="single-radio" showInLine="false">
+      <Choice value="left_and_returned" hotkey="a"/>
+      <Choice value="swapped_during_crossing" hotkey="s"/>
+      <Choice value="changed_for_no_visible_reason" hotkey="d"/>
+      <Choice value="cannot_determine" hotkey="f"/>
+    </Choices>
+  </View>
+
+  <!-- ============ Step 2C — DRIFT ============ -->
+  <View visibleWhen="choice-selected" whenTagName="error_kind" whenChoiceValue="drift">
+    <Header value="2. Where did the box end up?"/>
+    <Text name="drift_hint"
+          value="Keep watching after the box moves away — the target often walks on while the box stays stuck."/>
+    <Choices name="cause_drift" toName="video" choice="single-radio" showInLine="true">
+      <Choice value="drifted_to_standing_person" hotkey="a"/>
+      <Choice value="drifted_to_moving_person" hotkey="s"/>
+      <Choice value="cannot_determine" hotkey="d"/>
+    </Choices>
+  </View>
+
+  <!-- ============ Always ============ -->
+  <Header value="Confidence"/>
+  <Text name="conf_hint"
+        value="Use low honestly. An accurate picture of what is hard to judge is more useful than confident guesses."/>
+  <Choices name="confidence" toName="video" choice="single-radio"
+           showInLine="true" required="true">
+    <Choice value="high" hotkey="z"/>
+    <Choice value="medium" hotkey="x"/>
+    <Choice value="low" hotkey="c"/>
+  </Choices>
+
+  <TextArea name="free_text" toName="video" rows="3" maxSubmissions="1" editable="true"
+            placeholder="Anything unusual, or why you were unsure. If none of the labels fit, describe what actually happened in your own words — this is how we find missing categories."/>
+</View>

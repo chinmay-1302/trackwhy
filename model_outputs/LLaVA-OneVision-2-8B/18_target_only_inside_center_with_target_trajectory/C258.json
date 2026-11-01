@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a dark jacket standing near the pillar. The tracker follows this person consistently throughout the clip, even when the highlight disappears. The person is occasionally occluded by other people in the crowd, but the tracker maintains the correct association. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The visibility is partly visible due to crowd occlusion."
+}

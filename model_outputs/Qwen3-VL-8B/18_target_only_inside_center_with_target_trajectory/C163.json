@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a jersey with the number 20, who is briefly highlighted at 0:03. The highlight then disappears, but the correct tracker box remains on the same person throughout the clip. The highlight mismatch occurs because the highlight briefly points to a different person before returning to the correct target."
+}

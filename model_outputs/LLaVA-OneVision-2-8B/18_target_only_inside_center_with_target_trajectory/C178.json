@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in the crowd who is partially visible and occluded by other people, making it difficult to track consistently. The tracker maintains a consistent ID on the target throughout the clip, with no evidence of duplicate tracks, identity transfer, or drift. The target's visibility is reduced due to crowd occlusion, but the tracker does not miss the target entirely."
+}

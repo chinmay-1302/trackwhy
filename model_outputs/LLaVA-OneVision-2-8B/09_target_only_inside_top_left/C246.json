@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person in the light blue jacket standing near the center of the frame, who is directing the crowd. This person remains consistently tracked throughout the clip with a single, continuous tracker box. There are no instances of duplicate tracking, identity transfer, fragmentation, or missed detection of the target. The colored highlight appears intermittently but does not affect the tracking of the target, who maintains a stationary position directing the crowd. The target's visibility is fully maintained throughout the clip, with no occlusion or visual conditions that would impede tracking."
+}

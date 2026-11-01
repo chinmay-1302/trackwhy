@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The intended target (ID 89) is tracked until it becomes occluded by a standing sign, after which the track is lost and the person reappears with a new ID (8), constituting fragmentation; the highlight also incorrectly marks the static sign itself during the occlusion."
+}

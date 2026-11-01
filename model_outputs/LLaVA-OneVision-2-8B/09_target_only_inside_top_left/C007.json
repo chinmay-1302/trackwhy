@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue hoodie, initially highlighted in the upper left area of the frame. The target remains consistently tracked by an ordinary tracker box throughout the clip, with no evidence of duplicate tracks, identity transfers, or drift. The target's motion is consistent with walking through the crowd, and the tracker maintains correct association with the person even as the highlight disappears. No significant occlusions or visual conditions impede tracking, and the target remains fully visible for the duration of the clip."
+}

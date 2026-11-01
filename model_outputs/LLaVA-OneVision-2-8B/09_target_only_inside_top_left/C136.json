@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target can be followed reliably across the clip with no tracker errors or missing detections. The target remains consistently tracked by an ordinary tracker box throughout the entire sequence, with no evidence of duplicate tracks, identity transfers, or drift. The colored highlight is present initially but does not affect the tracker's ability to follow the target, and the target remains fully visible and identifiable for the duration of the clip."
+}

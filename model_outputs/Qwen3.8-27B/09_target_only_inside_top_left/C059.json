@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The tracker initially follows a person in a black shirt (ID 33), but the ID subsequently transfers to a different person in an orange high-visibility vest, while the highlight box also jumps to the new person, indicating an identity transfer error."
+}

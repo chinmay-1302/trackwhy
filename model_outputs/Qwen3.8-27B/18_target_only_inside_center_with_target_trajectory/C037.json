@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The physical target, a person in dark clothing walking away from the camera, is consistently tracked by the same ID (737) throughout the clip, but the special colored highlight disappears after the first few seconds."
+}

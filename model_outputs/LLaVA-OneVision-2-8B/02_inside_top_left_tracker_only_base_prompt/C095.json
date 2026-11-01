@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a brown jacket and blue jeans, initially highlighted in the center of the frame. The tracker follows this person consistently, with the bounding box updating as the person moves forward. The person is occasionally occluded by other pedestrians, but the tracker maintains the correct association. The highlight disappears after the first few seconds, but the ordinary tracker box remains on the target. No identity changes, drift, or missed detections occur. The visibility is partly visible due to crowd occlusion."
+}

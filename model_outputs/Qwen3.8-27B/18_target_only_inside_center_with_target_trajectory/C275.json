@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target is consistently tracked by ID 613 throughout the clip, with the highlight correctly marking the same person until it disappears, after which the ordinary tracker box continues to follow the target without any identity change, drift, or missed detection."
+}

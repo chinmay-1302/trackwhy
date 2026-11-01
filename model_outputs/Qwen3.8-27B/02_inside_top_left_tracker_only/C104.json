@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, initially tracked as ID 852, is a person in a dark jacket walking away from the camera. Around the 14-second mark, the tracker ID 852 is lost, and the target is immediately re-identified and tracked as ID 340, which is a new ID assigned to the same physical person, indicating an identity transfer/fragmentation event."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a dark jacket and a white cap, initially highlighted near the center of the frame. The target remains visible throughout the clip, with no significant occlusions or changes in appearance. The tracker consistently follows the target, with no evidence of duplicate tracks, identity transfers, or drift. The target's position shifts slightly as they move through the crowd, but the tracker maintains accurate detection. The highlight disappears after the first few seconds, but the target remains correctly tracked using ordinary bounding boxes. No visual conditions such as poor lighting or crowd clutter significantly impede detection. The target's visibility remains fully observable, and the tracker output is consistent with the target's motion and position throughout the clip."
+}

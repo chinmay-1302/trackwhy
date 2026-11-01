@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The physical target initially tracked as ID 1069 is occluded by a pillar, and upon re-emerging, the tracker assigns the ID 1364 (which previously belonged to a different person) to the target, constituting an identity transfer, while the highlight also incorrectly marks a different person."
+}

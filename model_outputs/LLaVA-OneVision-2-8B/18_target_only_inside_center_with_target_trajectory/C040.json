@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a light blue jacket and dark pants, initially highlighted in the lower left area near a statue. The tracker follows this person as they move slightly to the right and then forward, maintaining consistent tracking with the ordinary bounding box. The person is occasionally partially occluded by other pedestrians, but the tracker remains attached to the correct individual throughout the clip. The colored highlight disappears after the first few seconds, but the ordinary tracker box continues to follow the target reliably. No identity changes, drift, or missed detections occur, and the tracker maintains a consistent association with the intended physical person."
+}

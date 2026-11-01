@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The highlighted person is consistently tracked by the MOT system throughout the clip, with no errors in detection, identity, or tracking. The target remains fully visible and identifiable, with no occlusions or visual conditions that would impede tracking. The MOT system correctly maintains the target's track without any duplication, drift, or identity transfer."
+}

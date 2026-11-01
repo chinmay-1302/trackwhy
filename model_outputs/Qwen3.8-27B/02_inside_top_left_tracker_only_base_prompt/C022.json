@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, a person in dark clothing walking away in the upper right, is consistently tracked with ID 1335 throughout the clip, and the highlight remains correctly associated with this track without any identity changes, drift, or missed detections."
+}

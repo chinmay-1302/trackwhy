@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a green shirt and dark pants, located near the left side of the frame. The yellow highlighted box consistently tracks this person throughout the clip. The target's motion is consistent with walking forward through the crowd, and there are no instances of duplicate tracking, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable at all times, with no occlusions or visual conditions that would impede tracking. The tracker maintains a correct association with the target's bounding box for the entire duration of the clip."
+}

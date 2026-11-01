@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person in the yellow highlighted box on the right side of the frame. The target is tracked correctly throughout the clip, with the yellow highlight disappearing at the end of the clip but the correct tracker box remaining. The target is partially occluded by other people in the crowd, which is the cause of the partly visible visibility and crowd occlusion visual condition. There are no tracker errors, duplicate tracks, identity changes, or missed detections for the intended target."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a dark suit walking on the right side of the frame. The tracker follows this person consistently throughout the clip, with no errors in tracking or identity assignment. The target is occasionally occluded by other people, but the tracker maintains its association with the correct person. The colored highlight is present for the target in the latter part of the clip, but it does not affect the tracker's performance. The target's visibility is partly obscured by other pedestrians, but the tracker continues to follow the correct person without any issues."
+}

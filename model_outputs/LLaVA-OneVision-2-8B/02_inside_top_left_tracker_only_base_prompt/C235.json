@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in the center of the frame, wearing a dark shirt and dark pants. The tracker follows this person consistently throughout the clip, with no errors in tracking or identity assignment. The target is occasionally occluded by other people, but the tracker maintains the correct association. The colored highlight is present initially but disappears after the first few frames, but the tracker continues to follow the correct person. There are no instances of duplicate tracks, drift, or identity transfer. The target is visible for most of the clip, but is partially occluded by other people in the crowd, which is the primary reason for the partly visible classification. The visual conditions are primarily crowd occlusion, as the target is surrounded by many other people in the busy train station environment."
+}

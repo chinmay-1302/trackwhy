@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a red jacket walking in the lower right area, tracked by ID 293. The highlight initially points to a different person (ID 333) and then switches to another person (ID 366), but the correct tracker box for the intended target remains visible and correctly follows the person throughout the clip. This is a probe issue, not a tracker error."
+}

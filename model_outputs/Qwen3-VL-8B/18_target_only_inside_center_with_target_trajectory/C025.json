@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, initially highlighted as ID 89, is followed by the tracker as it moves through the station. The highlight disappears after frame 3.8, but the correct tracker box (ID 8) remains active on the same person throughout the clip, indicating no tracker error. The highlight's disappearance is a probe issue, not a tracker error."
+}

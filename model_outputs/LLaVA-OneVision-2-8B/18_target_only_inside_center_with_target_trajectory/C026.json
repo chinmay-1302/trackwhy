@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a yellow shirt, highlighted in the video. The tracker follows this person consistently throughout the clip, with no errors in detection, identity, or tracking. The target's movement is smooth and continuous, with no occlusions or tracking issues observed."
+}

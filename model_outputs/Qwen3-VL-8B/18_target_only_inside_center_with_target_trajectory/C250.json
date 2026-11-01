@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a grey top and blue jeans, is tracked correctly by an ordinary tracker box throughout the clip. The colored highlight initially appears on this person but then switches to a different person, indicating a highlight mismatch. The tracker itself does not make any errors."
+}

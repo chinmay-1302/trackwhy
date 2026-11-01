@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target is consistently tracked by an ordinary tracker box with ID 734 throughout the clip, and the colored highlight correctly indicates the same person for the duration. No tracker errors or visibility issues are present."
+}

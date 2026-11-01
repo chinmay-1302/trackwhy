@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue hoodie standing near the center of the frame. The target remains consistently tracked throughout the clip with no errors in detection, identity, or tracking. The colored highlight is present initially and remains on the correct target for the duration of the clip, with no mismatch or disappearance. The target's position and appearance are consistent, and there are no occlusions or tracking issues that would indicate a miss or identity change. The tracker maintains a reliable and continuous track on the intended physical person."
+}

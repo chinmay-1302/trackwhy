@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, identified by the yellow highlight at the start, remains consistently tracked by the ordinary tracker box with ID 357 until it disappears. The highlight then switches to a different person (ID 385) but the original target is still correctly followed by its tracker. The highlight is missing for the remainder of the clip, but the tracker continues to follow the correct person without error."
+}

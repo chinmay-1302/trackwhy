@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person standing near the pillar on the right side of the frame. The colored highlight is initially present but disappears after the first few seconds, indicating a highlight_missing probe issue. The target remains visible throughout the clip, though partially obscured by the crowd. There are no tracker errors, as the target is consistently tracked by an ordinary bounding box even after the highlight is removed. The visual conditions are primarily due to crowd occlusion, as the target is surrounded by many other pedestrians, making it difficult to distinguish clearly at times."
+}

@@ -1,0 +1,17 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing",
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a dark jacket walking toward the camera, who is tracked correctly throughout the clip. The highlight briefly appears on a different person (ID 37) and later on another (ID 99), but the correct tracker box remains on the target. The highlight disappears and mismatches, but this is a probe issue, not a tracker error."
+}

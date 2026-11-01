@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a blue jacket and dark pants, initially highlighted on the right side of the frame. The highlight disappears, but the correct tracker box remains on the same person, who continues to walk towards the right. There are no other tracker errors, and the target is consistently visible and tracked throughout the clip."
+}

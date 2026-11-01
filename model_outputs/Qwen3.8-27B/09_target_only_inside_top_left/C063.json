@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The intended target is the person in the dark shirt and shorts walking away from the camera, initially tracked as ID 8. The tracker fails to maintain this identity, and the track ID 145, which was previously assigned to a different person, is transferred to the target, while the highlight incorrectly marks a different individual, indicating an identity transfer and a probe mismatch."
+}

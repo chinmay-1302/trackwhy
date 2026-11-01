@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a light blue jacket standing near the center of the frame. The person remains visible throughout the clip, with no significant occlusion or tracking errors. The crowd density is high, but the target is consistently identifiable by their light blue jacket and position relative to other people and objects in the scene."
+}

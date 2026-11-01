@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a yellow shirt and dark pants, located near the center of the frame. The tracker follows this person consistently throughout the clip, with no errors in detection, identity, or tracking. The person moves from the center towards the right side of the frame, and the tracker maintains correct association with the target at all times."
+}

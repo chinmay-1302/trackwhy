@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, initially highlighted as ID 852, is correctly tracked by the ordinary tracker throughout the clip. The highlight later switches to ID 840, but the physical target remains consistently tracked by its original ID, indicating no tracker error. The highlight mismatch is a probe issue, not a tracker error."
+}

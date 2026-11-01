@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a blue hoodie, initially highlighted near the center of the frame. The tracker follows this person consistently throughout the clip, with no evidence of duplicate tracks, identity changes, or missed detections. The person moves from the center area towards the right side of the frame, passing by other pedestrians and remaining clearly visible at all times. The tracker maintains a correct association with the target, and there are no probe issues or visual conditions that obscure the target's visibility. The target's motion is consistent with normal pedestrian movement, and the tracker adapts to the target's changing position and orientation without error."
+}

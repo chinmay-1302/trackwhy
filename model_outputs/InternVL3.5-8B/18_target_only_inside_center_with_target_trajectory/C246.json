@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "miss",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is partially obscured by the crowd, leading to a missed detection interval despite the correct ordinary tracker box being present."
+}

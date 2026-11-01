@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a dark jacket and light pants, is consistently tracked by the ordinary tracker box with ID 27 throughout the clip. The colored highlight is present at the start but disappears after frame 0:02, while the correct tracker box remains active. This is a highlight issue, not a tracker error."
+}

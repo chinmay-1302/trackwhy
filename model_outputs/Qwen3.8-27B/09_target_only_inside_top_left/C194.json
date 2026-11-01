@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The intended target (ID 778) is tracked correctly until it is occluded by a pillar, after which the highlight jumps to a different person (ID 826), indicating an identity transfer where the tracking ID changed ownership to a different physical person."
+}

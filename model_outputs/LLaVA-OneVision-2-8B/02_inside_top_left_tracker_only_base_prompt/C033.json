@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a dark jacket and light pants walking from the background towards the foreground. The tracker follows this person consistently throughout the clip, with no errors in tracking or identity assignment. The target is occasionally occluded by other people, but the tracker maintains the correct association. The colored highlight is present initially and follows the target correctly, disappearing later but not indicating a tracker error. The target's visibility is partly obscured by the crowd at times, but the tracker remains accurate."
+}

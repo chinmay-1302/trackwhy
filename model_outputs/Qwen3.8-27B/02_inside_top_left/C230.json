@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target is initially tracked with ID 473, but after a brief occlusion or detection gap in the crowd, the tracker loses the original ID and assigns a new ID (467) to the same person, which is a clear case of fragmentation."
+}

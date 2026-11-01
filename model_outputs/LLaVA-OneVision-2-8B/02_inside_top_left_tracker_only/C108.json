@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is tracked consistently throughout the clip with no errors in identity, continuity, or detection. The highlighted tracker box remains associated with the same physical person, and there are no instances of occlusion, fragmentation, or identity transfer that would disrupt the tracking."
+}

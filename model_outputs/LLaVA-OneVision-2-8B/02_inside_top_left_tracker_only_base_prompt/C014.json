@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is tracked reliably throughout the clip, with no errors in detection, identity, or tracking. The target is partially occluded by other people in the crowd, which is the primary reason for the partly visible classification. The visual conditions are consistent with crowd occlusion, as multiple people are present in the scene and the target is intermittently obscured by them. There are no probe or highlight issues, and the tracker maintains a consistent track on the intended physical person without any identity changes, drift, or missed detections."
+}

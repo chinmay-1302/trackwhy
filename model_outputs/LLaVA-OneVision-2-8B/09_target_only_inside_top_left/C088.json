@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue hoodie standing near the center of the frame. The target remains consistently tracked by an ordinary tracker box throughout the clip, with no evidence of duplicate tracks, identity transfers, or tracking drift. The colored highlight appears intermittently but does not affect the tracker's ability to follow the target. The target's visibility is fully maintained, and no visual conditions such as occlusion or poor illumination cause a loss of detection. The tracker behavior is reliable and consistent with the target's motion and position."
+}

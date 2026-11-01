@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a red jacket walking near the center of the plaza. The highlight incorrectly targets a different person in a red jacket who is walking in the background. The correct tracker box for the intended target remains visible throughout the clip, and the tracker correctly follows the intended target without error."
+}

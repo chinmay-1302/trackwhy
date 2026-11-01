@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a dark jacket and pants, initially highlighted near the center of the frame. The person moves slightly forward and to the right, remaining within the crowd. The tracker maintains a consistent bounding box on the target throughout the clip, with no errors in tracking or ID assignment. The target is occasionally occluded by other people, but the tracker continues to follow the correct person. The highlight disappears after the first few seconds, but the ordinary tracker box remains on the target. No identity changes, drift, or misses occur. The target visibility is partly visible due to crowd occlusion."
+}

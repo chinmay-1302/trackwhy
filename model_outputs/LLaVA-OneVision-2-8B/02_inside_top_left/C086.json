@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a light blue jacket, initially highlighted in the upper right area. The highlight disappears, but the correct tracker box remains on the same person. The person moves through the crowd, occasionally occluded by other pedestrians, but is consistently tracked. No identity changes, misses, or drifts occur. The visual conditions include crowd occlusion, making the target partly visible at times."
+}

@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in the lower right area of the frame. The highlight is missing for most of the clip, but the target can be followed using the ordinary tracker boxes. The target is partially occluded by other people and the camera's view, which causes the visibility to be partly visible. There is no evidence of tracker errors, such as duplicate tracks, drift, or identity changes. The primary error is no_error as the target is correctly tracked throughout the clip."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The highlighted target (ID 1162) is a pedestrian in the upper right crowd who is tracked consistently with the same ID throughout the clip without any visible identity change, drift, or missed detection intervals."
+}

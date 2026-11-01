@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target, indicated by the highlight, is a person walking in the crowd. The tracker correctly follows this person throughout the clip without any errors, even as the highlight disappears and reappears. The person's motion and position are consistent with the tracker output, and no identity changes, drift, or misses occur."
+}

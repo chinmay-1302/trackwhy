@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a dark jacket and carrying a bag, moving from the background towards the foreground. The tracker consistently follows this person with a yellow bounding box throughout the clip, maintaining correct identity and position without any errors, occlusions, or ID switches. The highlight initially appears on this person and remains consistent, indicating the tracker is correctly following the intended target."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a light blue jacket in the lower left area of the frame. The target is visible and tracked correctly throughout the clip. The target is partially occluded by other people in the crowd, which is the cause of the partly visible visibility. There are no tracker errors, duplicate tracks, identity changes, or missed detections. The colored highlight is not present in the clip, but the target can still be reliably followed using the ordinary tracker boxes."
+}

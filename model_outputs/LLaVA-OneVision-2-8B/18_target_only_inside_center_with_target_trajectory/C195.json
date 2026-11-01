@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket and dark pants, located in the lower left area of the frame. The target remains consistently tracked by an ordinary tracker box throughout the clip, with no evidence of duplicate tracks, identity transfers, or drift. The target's motion is consistent with walking in the crowd, and the tracker maintains correct association with the target even as the crowd density and movement change. The colored highlight appears in the upper left corner of the frame but does not correspond to the intended target, indicating a highlight mismatch. The target remains fully visible and identifiable throughout the clip, with no significant occlusion or visual conditions affecting its observability."
+}

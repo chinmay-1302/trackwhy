@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "identity_change_subtype": null,
+  "drift_subtype": "to_moving_person",
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, initially highlighted, is tracked correctly until it interacts with another person, causing the tracker to drift onto the moving person. The highlight changes to a different person, indicating a mismatch."
+}

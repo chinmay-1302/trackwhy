@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a red jacket walking from the right side of the frame towards the center. The target is consistently tracked by an ordinary tracker box throughout the clip, with no evidence of duplicate tracks, identity changes, or missed detections. The colored highlight appears in the upper right corner and does not correspond to the intended target, but the correct tracker box remains on the target in the red jacket. There are no significant occlusions or visual conditions that would impede tracking, and the target's motion is consistent with normal pedestrian movement in a crowded area."
+}

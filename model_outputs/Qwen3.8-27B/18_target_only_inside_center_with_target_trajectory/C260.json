@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the man in the dark shirt and shorts walking away from the camera, who is correctly tracked by ID 145. The initial highlight incorrectly marks a static sign (ID 8), constituting a highlight target mismatch, but the tracker itself successfully maintains the correct identity on the physical person throughout the clip."
+}

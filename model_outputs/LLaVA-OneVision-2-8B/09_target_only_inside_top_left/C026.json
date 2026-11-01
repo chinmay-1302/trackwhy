@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a yellow jacket, initially highlighted in the upper middle area of the frame. The target remains visible and is tracked consistently throughout the clip, with no instances of occlusion, loss of detection, or incorrect tracking. The tracker maintains a correct bounding box around the target, and there are no other bounding boxes or IDs that incorrectly associate with the target. The highlight disappears after the first few seconds, but the target continues to be tracked correctly using ordinary bounding boxes. There are no visual conditions that obscure the target, and the target remains fully visible and identifiable throughout the clip."
+}

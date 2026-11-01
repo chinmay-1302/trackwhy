@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a dark jacket and dark pants walking in the lower right area, who is highlighted by ID 996. The highlight mismatches the target as it initially highlights a different person before correctly highlighting the intended target. The tracker correctly follows the intended target throughout the clip without error."
+}

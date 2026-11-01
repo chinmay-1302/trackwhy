@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a green shirt and dark pants, who is consistently tracked by the yellow highlighted bounding box throughout the clip. The target maintains a consistent position and motion path, with no evidence of tracker errors, identity changes, or missed detections. The highlight remains on the correct physical person for the entire duration of the clip, and the target is fully visible and identifiable at all times."
+}

@@ -1,0 +1,15 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_clutter"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially highlighted with ID 25 is a person in a red coat. The track ID follows the target as they move, but at some point, the tracker drifts onto another person who is moving, indicating a shift in the tracker's focus from the original target to a different individual. The target remains partly visible throughout the clip, and crowd clutter contributes to the difficulty in maintaining clear tracking."
+}

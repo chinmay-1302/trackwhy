@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The highlighted target is a person in a light blue jacket standing near the center of the crowd. The tracker maintains a consistent box on this person throughout the clip, with no errors in identity, tracking, or detection. The person is occasionally partially occluded by other pedestrians, but the tracker continues to follow them reliably. The highlight is present for the majority of the clip, and the target remains identifiable by their position and appearance relative to the crowd and surrounding objects."
+}

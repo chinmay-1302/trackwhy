@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a white hoodie standing near the right side of the frame, close to the large vertical pillar. The target remains visible and is consistently tracked by the ordinary tracker boxes throughout the clip. There are no instances of the target being occluded or lost, and the tracker maintains a consistent association with the intended physical person. The colored highlight is present initially but disappears after the first few seconds, but the correct ordinary tracker box remains on the target, indicating no tracker error."
+}

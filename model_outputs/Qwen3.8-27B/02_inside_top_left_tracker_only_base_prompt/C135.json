@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, initially tracked as ID 739, is involved in a close interaction where the tracker assigns the existing ID 684 (previously belonging to a different person) to the target, while the original ID 739 is lost or transferred, constituting an identity transfer."
+}

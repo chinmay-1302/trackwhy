@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, initially tracked as ID 1334, is followed by the tracker until it is occluded by a person in a white shirt; upon re-emergence, the target is assigned a new ID (1301), while the original ID 1334 is transferred to the occluding person, constituting an identity transfer."
+}

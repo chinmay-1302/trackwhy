@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a brown jacket and blue jeans, who is consistently tracked by the yellow highlighted bounding box throughout the clip. The target moves from the right side of the frame towards the center, passing by other pedestrians without any occlusions or interactions that would cause a tracker error. The yellow highlight remains consistently attached to the same physical person, indicating reliable tracking. No other tracker boxes or IDs are assigned to this target, and there are no instances of duplicate tracks, identity transfers, or missed detections. The target remains fully visible and identifiable throughout the entire clip, with no visual conditions such as occlusion, truncation, or poor illumination affecting its observability. The colored highlight is consistently present and correctly maps to the intended physical target, with no mismatches or missing highlights. The tracker output is accurate and reliable, with no errors in tracking the target's motion or appearance."
+}

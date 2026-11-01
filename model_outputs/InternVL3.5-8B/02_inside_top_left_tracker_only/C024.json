@@ -1,0 +1,13 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially highlighted with ID 255 is a person in a red coat walking towards the left. The tracker box follows this person as they move, but at some point, it appears to drift onto another person who is moving in the same direction. The original target remains partly visible throughout the clip."
+}

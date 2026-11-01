@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, a person in a dark shirt and light pants walking in the lower right, is consistently tracked by ID 1402 throughout the clip, with the highlight correctly marking the target's bounding box from its appearance to the end of the video."
+}

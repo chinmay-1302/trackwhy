@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a yellow jacket, who is consistently tracked by the ordinary tracker boxes throughout the clip. The colored highlight initially appears on this person and remains on them as they move through the crowd. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable at all times, with no missed detections or tracking errors. The tracker correctly follows the person wearing the yellow jacket from the left side of the frame towards the center, maintaining consistent tracking even as the person moves through the crowd and interacts with other pedestrians. The highlight disappears at the end of the clip, but the correct ordinary tracker box remains on the target, indicating no probe issue. The target's motion is consistent with normal pedestrian movement in a busy train station environment, with no unexpected or anomalous behavior that would suggest a tracking error. The tracker successfully maintains a continuous and accurate track on the intended target throughout the entire clip, with no loss of detection or incorrect association with other pedestrians. The target's appearance, position, and motion are all consistent with the expected behavior of a person moving through a crowded public space, and the tracker correctly identifies and follows this person without any errors or ambiguities. The clip provides clear and unambiguous evidence of the target's identity and motion, allowing for a reliable classification of the tracker behavior as correct and error-free."
+}

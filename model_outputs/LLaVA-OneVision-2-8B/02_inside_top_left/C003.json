@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a blue jacket, initially highlighted in the upper left area. The tracker maintains a consistent ID on this person as they move through the scene, with no evidence of duplicate tracks, drift, or identity transfer. The target becomes partly occluded by other pedestrians, leading to a temporary loss of visibility, but the tracker continues to follow the correct person. The visual conditions include crowd occlusion, which explains the difficulty in maintaining a clear detection. The highlight is present initially and remains consistent with the target throughout the clip, indicating no probe issue."
+}

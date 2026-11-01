@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person wearing a dark jersey with the number 47, is tracked correctly by an ordinary tracker box throughout the clip. The colored highlight initially appears on the correct person but then mismatches to a different person, which is a probe issue, not a tracker error. The tracker itself remains accurate."
+}

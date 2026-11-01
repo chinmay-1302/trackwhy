@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is initially tracked with ID 422 in the bottom left corner. The track is lost around the 15-second mark, and the same physical person is subsequently re-identified with a new ID, 522, which continues to track them until the end of the clip."
+}

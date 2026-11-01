@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a light blue jacket, initially highlighted by the yellow box. The target remains consistently tracked by the same ordinary tracker box throughout the clip, with no evidence of duplicate tracks, identity transfer, fragmentation, or missed detections. The target's motion is continuous and predictable, moving slightly within the crowd without significant occlusion or interaction with other people that would disrupt tracking. The highlight disappears after the first few seconds, but the correct tracker box remains on the target, indicating no probe issue. The target remains fully visible and identifiable for the entire duration of the clip."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person highlighted by the yellow box with the number 77. The target is a person wearing a dark jacket and dark pants, standing near the pillar on the right side of the frame. The target remains visible and is tracked correctly throughout the clip. The yellow highlight disappears after the first few seconds, but the target's ordinary tracker box remains present. The target's motion is minimal, mostly standing in place, with slight movements. There are no other tracker boxes that attach to the target, and no other IDs are assigned to the target. The target is not occluded by any other person or object, and remains clearly visible throughout the clip. The tracker output is correct and reliable, with no errors in tracking the intended target."
+}

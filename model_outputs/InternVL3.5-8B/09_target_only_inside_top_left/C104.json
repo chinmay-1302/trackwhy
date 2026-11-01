@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "miss",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The intended target is partially occluded by the crowd, and the tracker box disappears during this interval, indicating a miss."
+}

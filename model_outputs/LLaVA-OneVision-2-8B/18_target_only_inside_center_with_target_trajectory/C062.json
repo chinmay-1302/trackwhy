@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a white hoodie and dark pants, located near the right side of the frame. The target remains consistently tracked throughout the clip, with no instances of duplicate tracking, drift, identity transfer, or fragmentation. The target's position and appearance are clearly observable, and the tracker maintains accurate association with the intended person without any errors or missing detections. The colored highlight is present initially but does not affect the tracker's performance, as the target is correctly identified and followed using ordinary tracker boxes. The target's visibility is fully maintained, with no occlusions or visual conditions that would impede tracking. The tracker behavior is reliable and consistent, with no probe or highlight issues impacting the classification."
+}

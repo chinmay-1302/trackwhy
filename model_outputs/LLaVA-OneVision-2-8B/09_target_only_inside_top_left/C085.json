@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue hoodie, initially highlighted on the left side of the frame. The tracker maintains a consistent box on this person throughout the clip, with no evidence of duplication, drift, identity transfer, or fragmentation. The person moves from the left side of the frame towards the center, passing by other pedestrians without any occlusion or interaction that would disrupt tracking. The highlight disappears after the first few seconds, but the correct tracker box remains on the target, indicating no error in the tracker's behavior."
+}

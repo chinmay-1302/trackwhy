@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a blue jacket and carrying a bag, tracked by ID 1162. The highlight initially misidentifies a different person but the correct tracker box remains active on the target throughout the clip. No tracker error occurs; the highlight mismatch is the only probe issue."
+}

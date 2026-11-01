@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The highlighted target is a pedestrian walking away from the camera in the upper left area, and the tracker box with ID 1108 remains consistently attached to this individual throughout the clip without any identity switches, fragmentation, or missed detections."
+}

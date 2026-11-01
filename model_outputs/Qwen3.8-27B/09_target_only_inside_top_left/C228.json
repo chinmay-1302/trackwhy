@@ -1,0 +1,14 @@
+{
+  "annotation_status": "target_not_identifiable",
+  "primary_error": null,
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is not identifiable because no colored bounding box or highlight is visible on any person throughout the clip."
+}

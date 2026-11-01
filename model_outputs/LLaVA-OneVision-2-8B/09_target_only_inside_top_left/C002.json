@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a green and black checkered shirt, who is consistently tracked by the ordinary tracker box throughout the clip. The colored highlight initially appears on this person and remains on them as they move through the crowd, confirming the target identity. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable at all times, with no missed detections or tracking errors. The tracker maintains a consistent association with the intended physical person, even as the crowd moves and other people pass by. The highlight is present for the majority of the clip, providing clear visual confirmation of the target's identity and position. The tracker correctly follows the target's movement through the busy train station environment without any errors or interruptions."
+}

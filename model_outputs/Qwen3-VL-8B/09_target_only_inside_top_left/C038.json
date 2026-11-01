@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a dark jacket near the entrance, is consistently tracked by an ordinary tracker box (ID 1225) throughout the clip. The colored highlight appears briefly but then disappears, while the correct tracker box remains active. This is a probe issue (highlight_missing) but not a tracker error."
+}

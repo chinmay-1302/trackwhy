@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a red coat. The tracker follows this person consistently throughout the clip, even when the person is partially occluded by other people. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target's visibility is partly visible due to crowd occlusion."
+}

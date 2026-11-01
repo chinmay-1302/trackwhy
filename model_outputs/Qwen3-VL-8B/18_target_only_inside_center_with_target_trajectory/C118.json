@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a dark jacket walking near the bottom right of the frame, who is correctly tracked by an ordinary tracker box. The highlight initially appears on this person but then shifts to a different person, indicating a highlight mismatch. The tracker itself remains correct and does not make any errors."
+}

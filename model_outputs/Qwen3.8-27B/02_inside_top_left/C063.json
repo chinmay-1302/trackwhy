@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person in the orange high-visibility vest, who is tracked as ID 8; the highlight initially marks this person but then jumps to a different real person (ID 145), while ID 8 is simultaneously transferred to track a different pedestrian in a dark jacket, constituting an identity transfer."
+}

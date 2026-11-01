@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a yellow shirt who is initially highlighted. The tracker follows this person consistently throughout the clip, even when the highlight disappears. The person moves from the left side of the frame towards the center, passing through a crowd. The tracker maintains the correct ID on this person without any errors, even when other people are nearby and there is some occlusion. The visibility of the target is partly visible due to the crowd occlusion, but the tracker correctly maintains the association with the intended person."
+}

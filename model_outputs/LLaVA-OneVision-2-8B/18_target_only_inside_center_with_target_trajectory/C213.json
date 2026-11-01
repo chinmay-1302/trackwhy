@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket, initially highlighted in the upper middle area of the frame. The tracker follows this person consistently throughout the clip, with no errors in detection, identity, or tracking. The person moves from the upper middle area towards the lower middle area, passing by other pedestrians without any occlusions or interactions that would cause tracking issues. The tracker maintains a correct bounding box around the person at all times, with no duplicate tracks, identity changes, or missed detections. The highlight disappears after the first few seconds, but the correct tracker box remains on the target, indicating no probe issue. The person remains fully visible and identifiable throughout the clip, with no visual conditions such as occlusion, truncation, or poor illumination affecting the tracker's performance."
+}

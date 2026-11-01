@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket and dark pants, initially highlighted in the upper left area of the crowd. The target is visible throughout the clip, moving from the upper left towards the center of the frame. The tracker maintains a consistent association with this person, with no evidence of duplicate tracks, identity changes, or missed detections. The target's movement is continuous and predictable, with no significant occlusions or interactions that would disrupt tracking. The colored highlight disappears after the first few seconds, but the target remains clearly identifiable by its appearance and position relative to other people in the crowd. The tracker correctly follows the target's path without any errors, maintaining a consistent track ID throughout the clip."
+}

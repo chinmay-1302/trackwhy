@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a dark shirt with '150' on the back, is tracked correctly throughout the clip. The highlight is present initially but disappears after frame 0:06, while the correct tracker box remains active. This is a probe issue (highlight_missing), not a tracker error."
+}

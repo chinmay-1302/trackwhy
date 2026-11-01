@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a light blue jacket near the bottom center, is consistently tracked by an ordinary white bounding box with ID 1411. The colored highlight initially appears on a different person (ID 1335) but disappears after frame 0:05, while the correct tracker for the target remains active. This is a probe issue (highlight_missing) but not a tracker error."
+}

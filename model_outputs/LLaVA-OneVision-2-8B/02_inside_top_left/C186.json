@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is tracked consistently throughout the clip, with the yellow highlighted box following the same physical person. The target is partially occluded by other pedestrians, which is the primary visual condition affecting visibility. There are no instances of duplicate tracks, drift, identity transfer, or missed detections that would indicate a tracker error. The highlight is used as an attention cue and does not interfere with the correct tracking of the target."
+}

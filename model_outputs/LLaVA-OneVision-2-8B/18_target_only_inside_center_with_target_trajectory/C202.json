@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a blue shirt and dark pants, visible in the right side of the frame near the 'News' stand. The target remains consistently tracked with a single ID throughout the clip, with no instances of duplicate tracking, drift, identity transfer, or fragmentation. The target's motion is consistent with walking through the station, and the tracker maintains accurate localization even as the target moves through the crowd. The colored highlight initially appears on this target and remains consistent, confirming the target's identity and tracking accuracy."
+}

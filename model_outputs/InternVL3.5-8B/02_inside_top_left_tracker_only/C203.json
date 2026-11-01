@@ -1,0 +1,13 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially highlighted with ID 355 is a person wearing a yellow top. The tracker box follows this person as they move through the station, but at some point, the box starts to drift onto another person who is also moving. The original physical target remains identifiable throughout the clip."
+}

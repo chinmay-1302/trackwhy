@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a yellow jacket who is tracked consistently throughout the clip. The target moves from the right side of the frame towards the center, passing through a crowd. The tracker maintains the correct bounding box on the target even when it is partially occluded by other people. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target's visibility is partly visible due to crowd occlusion, but the tracker correctly follows the target's movement without any errors."
+}

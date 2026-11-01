@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, indicated by the highlight, is a person standing near a pillar on the right side of the hall. The highlight disappears after the initial frames, but the same person remains visible and is correctly tracked by an ordinary tracker box. The tracker behavior is accurate throughout the clip, with no identity changes, drift, or misses. The only probe issue is that the highlight is missing after the initial frames."
+}

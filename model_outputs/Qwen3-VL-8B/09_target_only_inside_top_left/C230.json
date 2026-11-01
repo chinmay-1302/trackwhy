@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a blue jacket, is consistently tracked by an ordinary tracker box with ID 670 from 0:00 to 0:04. The highlight disappears at 0:04, but the correct tracker box remains active. The person continues to be tracked correctly by ID 670 until 0:12, after which the highlight reappears on a different person (ID 467) who is not the original target. The tracker does not make any errors; it simply loses the highlight while correctly tracking the target."
+}

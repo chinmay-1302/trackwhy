@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket, who is visible throughout the clip. The tracker correctly follows this person, with no errors in detection, identity, or tracking. The colored highlight is present initially and remains on the correct target, with no mismatch or disappearance that would indicate a probe issue. The person's position and appearance are consistent, and the tracker maintains an accurate bounding box around them for the entire duration of the video."
+}

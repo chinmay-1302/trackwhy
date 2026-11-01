@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a dark jacket near the bottom center of the frame, tracked by ID 573. The highlight incorrectly points to a different person (ID 610) on the right side of the frame, but the correct tracker box for the intended target remains visible and correctly follows the person throughout the clip."
+}

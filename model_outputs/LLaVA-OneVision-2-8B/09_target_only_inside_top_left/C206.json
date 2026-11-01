@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a blue hoodie located in the lower right area of the frame. The target remains consistently tracked by the ordinary tracker boxes throughout the entire clip without any errors, occlusions, or ID changes. The colored highlight appears in the upper right corner but does not correspond to the intended target, indicating a highlight mismatch. The target's tracker box remains visible and correctly assigned to the same physical person for the full duration of the clip."
+}

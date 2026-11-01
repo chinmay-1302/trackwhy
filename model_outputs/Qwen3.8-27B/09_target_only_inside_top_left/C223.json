@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person in dark clothing walking away from the camera, who is tracked consistently with ID 1334 throughout the clip; however, the yellow highlight box jumps to a different person in a white top near the end of the video, indicating a highlight target mismatch."
+}

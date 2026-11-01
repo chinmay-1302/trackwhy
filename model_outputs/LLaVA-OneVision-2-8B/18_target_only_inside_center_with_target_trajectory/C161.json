@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a blue jacket, who remains consistently tracked throughout the clip. The colored highlight initially appears on this person and stays attached to them as they move through the crowd. There are no instances of duplicate tracking, identity transfer, or drift. The tracker maintains a correct association with the target even as the crowd density and movement change. The target is always fully visible and identifiable, with no occlusions or visual conditions that would impede detection. The highlight remains consistent with the target's movement, confirming the tracker's accuracy."
+}

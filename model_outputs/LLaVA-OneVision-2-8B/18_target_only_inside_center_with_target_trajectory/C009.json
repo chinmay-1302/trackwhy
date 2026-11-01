@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a dark jacket and dark pants, initially highlighted in the yellow box. This person remains consistently tracked throughout the clip, with the yellow line indicating their movement path. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target is fully visible and identifiable at all times, with no missed detections or visual conditions that would obscure the target. The tracker maintains a correct association with the intended physical person, following their movement as they walk through the crowd near the pillar. The highlight is present initially and remains consistent with the target's movement, confirming the correct tracking of the intended person."
+}

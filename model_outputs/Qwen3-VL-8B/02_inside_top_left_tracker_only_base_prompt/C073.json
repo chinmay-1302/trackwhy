@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The highlighted person (ID 598) is not the intended target; the correct target is tracked by ID 610, which remains consistently attached to the same physical person throughout the clip. The highlight mismatch does not affect the tracker's correctness."
+}

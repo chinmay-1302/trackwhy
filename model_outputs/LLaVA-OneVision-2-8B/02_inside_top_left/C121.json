@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a white shirt and dark pants, initially highlighted in the bottom right corner. The tracker maintains a consistent association with this person throughout the clip, even as they move and are partially occluded by other pedestrians. The target's tracker box remains visible and correctly follows the person's motion, with no evidence of duplicate tracks, identity transfer, drift, or missed detections. The target's visibility is partly obscured by other people in the crowd, but the tracker continues to correctly identify and follow the intended person."
+}

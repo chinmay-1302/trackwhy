@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a dark jacket and light pants walking in the crowd. The tracker follows the person consistently throughout the clip, even when the person is partially occluded by other pedestrians. The colored highlight is present initially but disappears after a few seconds, but the tracker continues to follow the correct person without any errors. The person is visible but partially obscured by the crowd, which is the main visual condition affecting visibility."
+}

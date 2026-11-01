@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The tracker initially assigns ID 401 to a person in a red shirt, but as the crowd moves, the ID transfers to a different physical person (a pedestrian in a light shirt) who is subsequently tracked as ID 411, indicating an identity transfer between distinct individuals."
+}

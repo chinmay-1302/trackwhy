@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket, who remains consistently tracked throughout the clip. The colored highlight is present in the lower right corner of the frame, but it does not correspond to the intended target. The target's tracker box remains visible and correctly assigned to the person in the light blue jacket, with no evidence of duplicate tracks, identity transfer, fragmentation, or missed detection. The target's visibility is fully maintained, and no visual conditions such as occlusion or poor illumination affect the tracking. The probe issue is not applicable as the correct ordinary tracker box remains present and the highlight does not interfere with the target identification."
+}

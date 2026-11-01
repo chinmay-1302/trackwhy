@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, initially highlighted with ID 435, is tracked until they pass behind a large pillar; upon re-emerging, the original ID is lost and the physical person is assigned a new ID (424), indicating a fragmentation event."
+}

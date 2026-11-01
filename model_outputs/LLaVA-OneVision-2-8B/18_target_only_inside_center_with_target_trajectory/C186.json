@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The highlighted person is tracked consistently throughout the clip, with the tracker maintaining the correct bounding box even as the person moves and interacts with the crowd. The visibility is partly obscured by other people in the crowd, but the tracker does not lose detection of the target."
+}

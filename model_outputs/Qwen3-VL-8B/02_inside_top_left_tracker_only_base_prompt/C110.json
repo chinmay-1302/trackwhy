@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a light blue jacket near the center of the frame, who remains consistently tracked by the same ID throughout the clip. The colored highlight initially matches this person but later shifts to a different person, indicating a highlight mismatch, while the tracker itself performs correctly."
+}

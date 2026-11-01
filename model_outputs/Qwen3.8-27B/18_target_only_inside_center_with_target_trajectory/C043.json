@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The intended target is a pedestrian in the upper-left crosswalk area who is consistently highlighted and tracked by the same ID throughout the clip without any visible identity switch, fragmentation, or missed detection interval."
+}

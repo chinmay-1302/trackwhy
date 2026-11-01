@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a light blue jacket in the lower left area of the frame. The colored highlight is missing from the frame, but the correct ordinary tracker box remains on the target. The target is visible but partially obscured by other people in the crowd, which is the cause of the partly visible classification. There are no tracker errors, as the target remains correctly tracked throughout the clip despite the missing highlight. The visual condition of crowd occlusion is the primary reason for the target's reduced visibility."
+}

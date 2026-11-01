@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is initially highlighted with ID 807999. The target remains visible and tracked consistently throughout the clip, with no interruptions, occlusions, or identity switches. The tracker maintains correct association with the same physical person, and the target's motion and appearance are consistent with expected behavior. No tracker errors or visualization issues are observed."
+}

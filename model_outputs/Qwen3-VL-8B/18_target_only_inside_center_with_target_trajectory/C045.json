@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target, indicated by the yellow highlight, is a person in a dark uniform walking through the station. The tracker correctly follows this person throughout the clip, even as the highlight remains on them. No tracker errors or visibility issues are observed."
+}

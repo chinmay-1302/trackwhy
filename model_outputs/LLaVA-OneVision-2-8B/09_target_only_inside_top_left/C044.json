@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a white coat who is visible in the crowd. The tracker follows this person consistently throughout the clip, even as the crowd moves and other people pass by. The target's visibility is partly obscured by the crowd, but the tracker maintains a correct detection. There are no errors in the tracker's behavior, and the target is reliably followed."
+}

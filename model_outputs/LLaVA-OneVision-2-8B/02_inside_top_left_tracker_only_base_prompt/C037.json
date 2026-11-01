@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person highlighted in the yellow box at the start of the clip. The target is tracked consistently throughout the clip, with the correct tracker box remaining on the same physical person even after the highlight disappears. The target is occasionally occluded by other people in the crowd, but the tracker maintains its association with the intended person. There are no instances of duplicate tracks, identity transfer, drift, or missed detection intervals. The target's visibility is partly obscured by the crowd during the clip, but the tracker remains correctly assigned to the intended person."
+}

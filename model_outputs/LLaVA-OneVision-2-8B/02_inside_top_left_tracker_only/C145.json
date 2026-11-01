@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is initially highlighted with ID 213, which remains consistently tracked throughout the clip. The target maintains a clear trajectory, with no occlusions, identity switches, or tracking errors observed. The tracker correctly follows the physical person associated with ID 213, even as the highlight is removed, using appearance, position, and motion continuity to maintain association."
+}

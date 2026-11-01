@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a dark jacket and light pants, initially highlighted near the center of the frame. The highlight disappears, but the person remains visible among the crowd, with no tracker errors observed. The person is partially occluded by other pedestrians, leading to the partly visible classification."
+}

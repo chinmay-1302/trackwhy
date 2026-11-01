@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a red hoodie located in the lower right area of the frame. The target remains consistently tracked throughout the clip with no errors in detection, identity, or tracking. The colored highlight is present and correctly identifies the target for the duration of the clip, with no mismatches or disappearances. The target's position and appearance are clearly observable, with no occlusions or visual conditions that would impede tracking. The tracker maintains a consistent association with the intended physical person, with no evidence of duplicate tracks, drift, identity transfer, or fragmentation. The target's visibility is fully maintained, and no visual conditions such as occlusion, truncation, or poor illumination affect the tracking performance. The probe issue is not present, as the colored highlight correctly identifies the intended target without any mismatches or ghost detections."
+}

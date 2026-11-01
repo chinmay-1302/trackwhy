@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a brown top and blue jeans, initially highlighted on the right side of the frame. The highlight disappears, but the target remains visible and is correctly tracked by the ordinary tracker boxes throughout the clip. The target's visibility is partly obscured by other pedestrians and the crowd, but the tracker maintains consistent association with the target's bounding box. No identity changes, drift, or missed detections occur. The primary error is no_error as the target is reliably tracked despite the missing highlight."
+}

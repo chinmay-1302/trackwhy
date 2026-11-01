@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket standing near the center of the frame, in front of the tall white pillar. The target remains consistently tracked by an ordinary tracker box throughout the entire clip, with no evidence of duplicate tracks, identity changes, or missed detections. The colored highlight is present in the upper right corner of the frame but does not correspond to the intended target, indicating a probe issue rather than a tracker error. The target's position and appearance remain consistent, with no occlusions or visual conditions that would impede tracking. The tracker correctly follows the target's expected motion path through the crowd, maintaining a reliable association with the same physical person for the full duration of the clip."
+}

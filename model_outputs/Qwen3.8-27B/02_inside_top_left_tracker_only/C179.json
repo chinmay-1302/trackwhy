@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, initially highlighted with ID 1492 on the far left, is consistently tracked by the same ID throughout the clip as they walk away from the camera, with no identity switches, fragmentation, or detection gaps."
+}

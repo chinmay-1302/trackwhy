@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, initially highlighted as ID 34, is tracked correctly as it walks through the station. The highlight disappears after frame 4.2, but the correct tracker box (ID 147) reappears and continues tracking the same person. No tracker error occurs; the highlight is simply missing."
+}

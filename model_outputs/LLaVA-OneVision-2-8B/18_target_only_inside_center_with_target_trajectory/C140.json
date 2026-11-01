@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a light-colored top standing near the right side of the frame. The colored highlight is initially present but disappears after the first few seconds, indicating a highlight_missing probe issue. The target remains visible throughout the clip, though partially obscured by the crowd, with no tracker errors observed in the ordinary bounding boxes. The target's tracker box remains consistently assigned to the same person, with no duplicate tracks, identity transfers, or drift observed. The primary error is no_error as the target is reliably tracked despite the missing highlight and partial occlusion by the crowd."
+}

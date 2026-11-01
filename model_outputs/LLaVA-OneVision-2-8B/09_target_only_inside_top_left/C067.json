@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target remains visible and is correctly tracked throughout the clip. The target is a person wearing a light blue hoodie located near the center of the frame. The target is visible in the initial frames and continues to be tracked as they move slightly within the crowd. The target's visibility is partially obscured by the crowd, but their position and appearance remain consistent with the correct tracker box. No tracker errors or probe issues are observed."
+}

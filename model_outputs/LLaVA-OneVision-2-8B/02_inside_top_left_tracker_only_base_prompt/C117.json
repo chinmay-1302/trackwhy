@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a green shirt and dark pants, initially highlighted on the left side of the frame. The tracker maintains a consistent bounding box around this person as they walk towards the center of the frame. The target is partially occluded by other pedestrians and the crowd, but the tracker continues to follow the intended person without any errors. The visual conditions include crowd occlusion, which affects the visibility of the target but does not cause a tracker error."
+}

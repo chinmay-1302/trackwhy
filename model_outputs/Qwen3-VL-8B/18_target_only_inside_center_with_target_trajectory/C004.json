@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a blue and white sports jersey, is visible throughout the clip. The highlight initially appears on this person but disappears after frame 0:03. The correct ordinary tracker box remains active on the target, and no tracker error occurs. The highlight's disappearance is the only probe issue, not a tracker error."
+}

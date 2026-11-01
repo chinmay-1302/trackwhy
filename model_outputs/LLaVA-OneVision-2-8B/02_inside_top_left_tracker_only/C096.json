@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is initially highlighted with ID 727, a person in a light blue shirt standing near the pillar. The target remains consistently tracked throughout the clip, with no identity switches, occlusions, or tracking errors. The tracker maintains correct association with the same physical person, and the target visibility remains fully visible with no visual conditions impeding detection."
+}

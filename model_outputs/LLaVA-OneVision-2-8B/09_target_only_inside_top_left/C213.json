@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a light blue jacket and light blue hat, located in the lower left area of the frame. The target remains visible and is tracked consistently throughout the entire clip. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target's tracker box remains correctly assigned to the same physical person for the full duration of the video, with no missed detections or incorrect ID assignments. The colored highlight is present initially and remains on the correct target for the entire clip, providing clear visual confirmation of the target's identity and position."
+}

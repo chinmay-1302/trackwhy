@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue hoodie, initially highlighted in the upper left area of the frame. The tracker follows this person consistently throughout the clip, with no instances of duplicate tracking, drift, identity transfer, or fragmentation. The person moves from the upper left towards the center of the frame, passing by other pedestrians without any significant occlusions or interactions that would disrupt the tracking. The tracker maintains a correct association with the target person for the entire duration of the clip, with no missing detections or incorrect ID assignments. The colored highlight disappears after the first few seconds, but the correct ordinary tracker box remains on the target person, confirming the tracker's accuracy. No probe issues are observed, as the highlight is not used as the primary identifier for the target, and the tracker continues to follow the correct person even after the highlight is gone."
+}

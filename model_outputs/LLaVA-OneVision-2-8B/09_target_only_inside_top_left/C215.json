@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a red hoodie and white hat, located near the entrance on the right side of the frame. The target remains consistently tracked by the ordinary tracker boxes throughout the clip, with no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target's position and appearance are clearly observable, and the tracker maintains accurate detection of the individual without any errors or misses. The colored highlight appears intermittently but does not affect the tracker's performance, as the correct ordinary tracker box remains assigned to the target. The target's visibility is fully maintained, with no occlusions or visual conditions that would impede detection. The tracker successfully follows the target's movement through the crowd, maintaining a consistent track ID and spatial association with the individual throughout the entire clip."
+}

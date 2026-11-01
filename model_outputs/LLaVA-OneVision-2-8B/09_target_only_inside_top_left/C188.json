@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a dark jacket and dark pants, initially highlighted near the center of the frame. The target remains visible and is tracked consistently throughout the clip, with no instances of occlusion, loss of detection, or incorrect tracking. The target's motion is consistent with walking in the crowd, and no other person's tracker box is assigned to the target at any point. The highlight disappears after the first few seconds, but the target remains correctly tracked using ordinary tracker boxes. No probe or highlight issues are present, and the target's visibility is fully maintained throughout the clip."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The highlighted person is tracked consistently throughout the clip, with no evidence of tracker errors, identity changes, or missed detections. The tracker maintains a correct bounding box on the intended target, and the target remains fully visible with no occlusions or visual conditions that would impede detection."
+}

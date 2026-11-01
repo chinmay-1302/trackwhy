@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The physical target is initially tracked as ID 852, but the track is lost and the person is later re-identified as a new ID 840, indicating fragmentation; additionally, the highlight jumps to a different person (ID 840) while the original target (ID 852) is still being tracked, constituting a highlight target mismatch."
+}

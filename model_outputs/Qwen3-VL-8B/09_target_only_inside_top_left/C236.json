@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a dark jacket who is tracked by ID 735 initially, then by ID 829. The highlight incorrectly switches to a different person (ID 829) at 0:04, but the correct physical target remains tracked without error. The tracker does not lose the target or attach to another person."
+}

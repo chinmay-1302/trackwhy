@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a pedestrian walking away from the camera in the upper-left area, and the tracker consistently maintains a single bounding box on this individual throughout the clip without any identity switches, fragmentation, or missed detections."
+}

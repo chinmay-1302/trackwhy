@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: If you use this software or these annotations, please cite the paper.
+title: TrackWhy
+authors:
+  - family-names: Mhatre
+    given-names: Chinmay
+  - family-names: Gawali
+    given-names: Sankalp
+  - family-names: Rathore
+    given-names: Punit
+date-released: "2026-11-01"
+license: MIT
+repository-code: https://github.com/chinmay-1302/trackwhy
+url: https://openreview.net/forum?id=TRJ7gFUnta
+preferred-citation:
+  type: conference-paper
+  title: "What Counts as a Tracking Failure? Measuring Disagreement Between Metrics, Human Observers, and Vision-Language Models"
+  authors:
+    - family-names: Mhatre
+      given-names: Chinmay
+    - family-names: Gawali
+      given-names: Sankalp
+    - family-names: Rathore
+      given-names: Punit
+  collection-title: "Grounded and Faithful Vision-Language Models for Real-World Deployment 2026"
+  year: 2026
+  url: https://openreview.net/forum?id=TRJ7gFUnta

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a red jacket and white pants, initially highlighted in the lower right area of the frame. The target moves slightly to the right and then forward, but is consistently surrounded by a dense crowd, making it difficult to track accurately. The tracker maintains a consistent bounding box around the target throughout the clip, with no significant errors or identity changes observed. The target's visibility is partly obscured by the crowd, but it remains identifiable as the intended person."
+}

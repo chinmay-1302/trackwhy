@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket, initially highlighted near the center of the frame. The highlight disappears, but the person remains visible among the crowd. The tracker maintains a consistent box on the target throughout the clip, with no errors in ID assignment, duplication, or drift. The target is occasionally occluded by other people, leading to partial visibility, but the tracker continues to follow the correct person without interruption."
+}

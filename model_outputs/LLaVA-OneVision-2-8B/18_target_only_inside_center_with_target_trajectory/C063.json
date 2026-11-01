@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing an orange safety vest, who is consistently tracked by the MOT system throughout the clip. The target moves from the center of the frame towards the right side, passing by the information booth and continuing towards the right edge of the frame. The tracker maintains a consistent ID on this person, with no instances of duplicate tracking, drift, identity transfer, or fragmentation. The colored highlight initially appears on this person and remains consistent with their movement, indicating that the MOT system is correctly tracking the intended target without errors."
+}

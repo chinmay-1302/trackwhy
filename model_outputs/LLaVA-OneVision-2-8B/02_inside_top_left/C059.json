@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a yellow vest, initially highlighted. The tracker follows this person consistently, with the yellow bounding box moving with the person as they walk through the crowd. There are no instances of duplicate tracks, drift, or identity transfer. The target is occasionally occluded by other people, leading to partial visibility, but the tracker maintains the correct association throughout the clip."
+}

@@ -1,0 +1,15 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_clutter"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially highlighted with ID 343 appears to be a person in the center of the frame. The tracker ID follows the target as they move, but at some point, the ID seems to drift onto another person who is moving, indicating a spatial attachment error. The target remains partly visible throughout the clip, and crowd clutter makes tracking more challenging."
+}

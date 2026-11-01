@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a yellow shirt who is consistently tracked by the MOT system throughout the clip. The target's tracker box remains correctly assigned to the same physical person, with no evidence of duplicate tracks, identity transfer, fragmentation, or missed detections. The colored highlight initially appears on the target and remains consistent with the target's position and appearance, indicating reliable tracking. No visual conditions such as occlusion, truncation, or poor illumination cause the tracker to fail. The target remains fully visible and identifiable throughout the clip, with no ambiguity in the tracking output."
+}

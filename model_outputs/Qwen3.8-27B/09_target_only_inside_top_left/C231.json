@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The tracker initially follows a person in a dark jacket (ID 29) on the right, but when that person stops, the ID 29 label transfers to a different person in a dark jacket and light pants who walks past, indicating an identity transfer."
+}

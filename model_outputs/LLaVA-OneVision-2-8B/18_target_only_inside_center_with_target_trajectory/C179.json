@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket standing near the center of the frame. The target remains consistently tracked by an ordinary tracker box throughout the clip, with no evidence of duplicate tracks, identity changes, or missed detections. The colored highlight appears intermittently but does not affect the tracker's ability to follow the target. The target's position and appearance are consistent, and the tracker maintains correct association with the person even as the crowd moves around them."
+}

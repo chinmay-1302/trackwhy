@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a brown top and blue jeans, initially highlighted. The tracker maintains a consistent bounding box around this person throughout the clip, even as they move through the crowd. The target is occasionally occluded by other pedestrians, but the tracker continues to follow the correct individual without any identity changes, misses, or drift. The visibility is partly visible due to the crowded environment, but the tracker successfully maintains the target's identity."
+}

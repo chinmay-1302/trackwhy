@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a dark jacket standing near a pillar. The highlight is missing after the initial frames, but the person remains visible and tracked by the ordinary tracker boxes. The person is partially occluded by the crowd and the pillar, which causes the visual conditions to be classified as crowd occlusion. The tracker does not lose the target, and there are no identity changes or drifts observed."
+}

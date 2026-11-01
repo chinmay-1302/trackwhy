@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in dark clothing, is consistently tracked by an ordinary tracker box with ID 148 from 0:04 to 0:08. The colored highlight initially appears on a different person (ID 29) from 0:00 to 0:03, then disappears, while the correct tracker (ID 148) remains on the target. This is a highlight issue, not a tracker error."
+}

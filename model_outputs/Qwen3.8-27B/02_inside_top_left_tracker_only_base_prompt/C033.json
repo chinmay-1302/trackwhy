@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person in the dark jacket and light pants (ID 24) who walks away from the camera. The tracker loses this identity, and the ID 24 label subsequently transfers to a different person (a woman in a dark top and jeans) walking in the opposite direction, while the highlight follows this incorrect ID."
+}

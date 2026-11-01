@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a dark jacket and dark pants, initially highlighted near the center of the frame. The highlight disappears after the first few seconds, but the person remains visible and is tracked by an ordinary bounding box. The person moves slowly through the crowd, occasionally partially occluded by other pedestrians, but remains consistently identifiable by their appearance and position relative to the surrounding people. No tracker errors are observed; the person is continuously tracked with a single, consistent bounding box throughout the clip. The primary issue is the missing highlight, which does not affect the tracker's performance."
+}

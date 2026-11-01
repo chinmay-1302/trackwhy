@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a blue jacket near the center of the frame, tracked by ID 407. The highlight initially points to a different person (ID 497) in the upper right, but the correct target remains consistently tracked by ID 407 throughout the clip. The highlight mismatch does not affect the tracker's performance, which is accurate."
+}

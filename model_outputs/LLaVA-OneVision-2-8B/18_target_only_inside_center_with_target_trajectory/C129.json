@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a brown jacket walking towards the camera. The tracker follows this person consistently throughout the clip, with no errors in tracking or identity changes. The colored highlight is present initially and follows the target correctly, indicating no probe issues. The target remains fully visible and identifiable at all times."
+}

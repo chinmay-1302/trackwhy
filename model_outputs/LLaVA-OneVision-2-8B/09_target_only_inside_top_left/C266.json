@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a green shirt and black pants, who is standing near the left side of the frame. The colored highlight appears on this person and remains consistent throughout the clip, indicating they are the intended target. The tracker correctly follows this person without any errors, with no duplicate tracks, drift, identity changes, or missed detections observed. The person remains fully visible and identifiable throughout the clip, with no occlusions or visual conditions that would impede tracking. The highlight is consistently applied to the correct person, with no mismatch or ambiguity."
+}

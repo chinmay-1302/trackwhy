@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket standing near the center of the frame, in front of the tall white pillar. This person remains visible and identifiable throughout the entire clip, with no loss of tracking or appearance changes. The colored highlight appears intermittently but does not affect the tracking of the target, who maintains a consistent position relative to the pillar and surrounding crowd. No tracker errors, occlusions, or visual condition issues impede the reliable tracking of this individual."
+}

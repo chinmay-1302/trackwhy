@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person highlighted in the yellow box, who is standing near the right side of the frame. The target remains visible and is consistently tracked by the ordinary tracker boxes throughout the clip. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target's tracker box remains correctly assigned to the same physical person for the entire duration of the clip, with no missed detections or incorrect ID assignments. The target's visibility is fully maintained, and there are no visual conditions that obscure the target during the clip."
+}

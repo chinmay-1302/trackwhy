@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a yellow jacket, who is consistently tracked by the ordinary tracker boxes throughout the clip. The colored highlight initially appears on this person and remains on them for the duration of the clip, indicating they are the intended target. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable throughout the clip, with no missed detections or tracking errors. The tracker correctly follows the person in the yellow jacket, maintaining consistent association with their movement and position in the crowd."
+}

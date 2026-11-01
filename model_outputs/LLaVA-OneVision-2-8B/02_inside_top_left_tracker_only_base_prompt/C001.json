@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a dark outfit walking from the right side of the frame towards the left. The tracker maintains a consistent ID on this person throughout the clip, even as they move through the crowd. The visibility is partly visible due to the crowded environment, but the tracker does not lose the target. There are no instances of duplicate tracks, drift, or identity transfer. The primary error is no_error as the tracker correctly follows the target."
+}

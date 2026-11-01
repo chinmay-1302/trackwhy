@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a light blue jacket, initially highlighted near the top of the frame. The target moves downwards through the crowd, and their tracker box remains consistent with their movement. The target is partially occluded by other people in the crowd, but their correct tracker box is maintained throughout the clip. The highlight disappears after the initial frames, but the target's tracker box remains visible. No tracker errors are observed; the target is consistently tracked despite the crowded environment."
+}

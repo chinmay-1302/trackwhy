@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The physical target, a pedestrian in a dark top walking away in the upper right, is tracked by a single consistent ID (388) throughout the clip without any visible identity change, fragmentation, or missed detection intervals."
+}

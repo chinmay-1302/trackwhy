@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person highlighted in yellow at the start of the clip. The tracker follows this person as they move through the crowd, maintaining a consistent track ID. The target is occasionally occluded by other people, but the tracker continues to follow the correct person. The highlight disappears after the first few seconds, but the tracker remains on the intended target. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target is visible but partially obscured by other people, leading to the partly visible classification. The primary error is no_error as the tracker correctly follows the intended target throughout the clip."
+}

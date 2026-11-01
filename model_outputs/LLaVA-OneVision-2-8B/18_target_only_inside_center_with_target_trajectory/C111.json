@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a light blue jacket standing near the pillar. The tracker consistently follows this person throughout the clip, with no errors in detection, identity, or tracking. The colored highlight initially appears on this person and remains consistent, indicating the tracker is correctly identifying and following the target. There are no instances of occlusion, fragmentation, or identity transfer affecting the target's tracking. The target remains fully visible and identifiable for the entire duration of the clip."
+}

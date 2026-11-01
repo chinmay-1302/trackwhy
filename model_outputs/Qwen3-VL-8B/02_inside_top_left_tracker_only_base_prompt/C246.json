@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a light blue jacket near the bottom center, who is consistently tracked by ID 1455. The highlight initially matches this person but later highlights a different person (ID 1483) walking nearby, indicating a highlight mismatch. The tracker itself correctly follows the intended target without error."
+}

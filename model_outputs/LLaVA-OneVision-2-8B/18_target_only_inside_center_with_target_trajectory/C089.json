@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a green shirt and black shorts, who is visible throughout the clip. The tracker maintains a consistent bounding box on this person, with no errors in tracking, identity changes, or missed detections. The colored highlight appears intermittently but does not affect the tracker's performance, and the target remains fully visible with no occlusions or visual conditions that would impede detection."
+}

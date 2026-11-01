@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a white hoodie standing near the entrance of the stadium. The person remains visible throughout the clip, with no significant occlusion or tracking errors. The target is consistently tracked by the ordinary tracker boxes, and there are no instances of duplicate tracks, drift, or identity transfer. The visual conditions are primarily due to the crowd occlusion, which is a common scenario in a crowded public space. The colored highlight is not present in the clip, but the target remains identifiable by its appearance and position relative to other people and objects in the scene."
+}

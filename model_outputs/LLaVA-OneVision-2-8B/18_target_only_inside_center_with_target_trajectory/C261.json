@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a dark shirt and dark pants, initially highlighted on the right side of the frame. The highlight disappears, but the person remains visible and is tracked by the ordinary tracker box. The person moves slightly and is occasionally occluded by other people, but the tracker maintains consistent association with the target. No identity changes, drift, or missed detections occur. The visual conditions include crowd occlusion as the person moves through a crowded area. The highlight is missing but the target is still correctly tracked."
+}

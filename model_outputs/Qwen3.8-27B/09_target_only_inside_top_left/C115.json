@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person in the light blue shirt (ID 637) who raises their arm; the highlight jumps to a different person (ID 652) behind them, indicating a highlight mismatch and an identity transfer error where the tracking ID 652 is associated with the wrong physical person."
+}

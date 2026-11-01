@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person in the dark jacket and jeans initially highlighted as ID 38. As the target moves right, the tracker loses the original ID and assigns ID 78 to the target, while ID 78 had previously been tracking a different person in a blue shirt, indicating an identity transfer."
+}

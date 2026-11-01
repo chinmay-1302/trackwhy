@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "miss",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "truncation"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, a man in a dark jacket in the lower-left foreground, is tracked with a yellow highlight box until approximately 00:03, after which the target moves partially out of the frame and the tracker box disappears, resulting in a missed detection for the remainder of the clip."
+}

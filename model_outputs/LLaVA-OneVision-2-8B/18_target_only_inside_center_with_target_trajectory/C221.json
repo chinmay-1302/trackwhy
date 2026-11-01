@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a red hoodie located in the lower right area of the frame. The target remains consistently tracked by an ordinary tracker box throughout the entire clip, with no evidence of tracking errors, occlusions, or ID switches. The colored highlight is present initially but disappears after the first few seconds, but the correct tracker box remains on the target, indicating no probe issue. The target's motion is consistent with walking through the crowd, and there are no other people with the same appearance or movement pattern that would cause a tracking error. The target remains fully visible and identifiable for the entire duration of the clip."
+}

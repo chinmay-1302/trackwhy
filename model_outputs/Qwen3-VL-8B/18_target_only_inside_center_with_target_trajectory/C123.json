@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a dark shirt walking toward the center of the hall, visible from 0:11 to 0:14. The highlight incorrectly targets a different person in a yellow shirt. The correct tracker box remains on the intended target throughout the clip, showing no error in tracking."
+}

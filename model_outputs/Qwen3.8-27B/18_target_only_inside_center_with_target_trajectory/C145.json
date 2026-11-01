@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The physical target is initially tracked as ID 213, but the track is lost when the person moves behind the pillar, and the same person is later re-identified with a new ID 399, indicating fragmentation; the highlight also briefly mismatches to a different person."
+}

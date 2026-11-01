@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a yellow shirt who is tracked consistently throughout the clip. The target is occluded by other people in the crowd, leading to a temporary loss of detection, but the tracker correctly reacquires the target after the occlusion. The colored highlight is present initially but disappears, but the correct tracker box remains on the target. There are no identity changes, drift, or missed detection intervals that indicate a tracker error."
+}

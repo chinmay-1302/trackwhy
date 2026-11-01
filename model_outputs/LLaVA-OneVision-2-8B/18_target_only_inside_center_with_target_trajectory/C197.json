@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The highlighted person is visible in the upper middle of the frame, surrounded by a crowd. The tracker follows the person as they move slightly, with no significant errors in tracking. The visibility is partly obscured by the crowd, but the target remains identifiable."
+}

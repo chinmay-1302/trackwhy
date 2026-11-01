@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target can be followed reliably enough to classify the tracker behavior. The physical target remains clearly visually observable and identifiable during the entire clip, with no relevant intervals where the target does not have its correct ordinary tracker detection/track. There are no issues with the colored highlight, and the tracker output is accurate and consistent throughout the video."
+}

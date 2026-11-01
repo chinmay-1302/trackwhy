@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a light blue jacket standing near the base of the tall white pillar, directing people. The tracker correctly follows this person throughout the clip without any errors, even as the highlight disappears and the person moves slightly. No tracker errors or probe issues are observed."
+}

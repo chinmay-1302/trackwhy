@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a white hoodie and dark pants, initially highlighted near the right side of the frame. The person moves slightly but remains within the crowd, with their tracker box consistently following them. The highlight disappears after a few seconds, but the ordinary tracker box continues to track the person reliably. The target is occasionally occluded by other people in the crowd, leading to partial visibility, but the tracker maintains correct association throughout the clip."
+}

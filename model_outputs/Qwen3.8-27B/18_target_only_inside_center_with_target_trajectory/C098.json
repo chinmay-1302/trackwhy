@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target (ID 169) is tracked until they disappear behind a pillar, and the track is lost; later, a different person (ID 424) is highlighted, indicating a highlight mismatch, while the original target's track fragmentation is the primary tracker error."
+}

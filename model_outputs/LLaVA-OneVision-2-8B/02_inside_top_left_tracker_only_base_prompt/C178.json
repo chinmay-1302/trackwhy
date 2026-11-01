@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a blue top and dark pants, initially highlighted in the upper left area of the frame. The highlight disappears after the first few seconds, but the target can still be tracked using the ordinary tracker boxes. The target moves through the crowd, occasionally occluded by other pedestrians, but remains consistently tracked with the same ID throughout the clip. There are no instances of duplicate tracks, identity transfer, or drift. The primary issue is the missing highlight, which does not affect the tracker's performance. The target's visibility is partly obscured by the dense crowd, but the tracker maintains correct association with the target's bounding box."
+}

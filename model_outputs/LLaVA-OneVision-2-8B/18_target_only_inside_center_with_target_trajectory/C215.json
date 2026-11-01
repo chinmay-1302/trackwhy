@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a red hoodie standing near the entrance on the right side of the frame. The person remains visible throughout the clip, with no significant occlusion or tracking issues. The colored highlight appears in the top left corner, but it does not correspond to the intended target, indicating a highlight mismatch. The tracker correctly follows the person in the red hoodie without any errors."
+}

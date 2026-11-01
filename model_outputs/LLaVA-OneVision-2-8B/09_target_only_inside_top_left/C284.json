@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a dark jacket and light pants, initially highlighted in the center of the frame. The tracker follows this person consistently throughout the clip, with no loss of detection or identity change. The person moves forward through the crowd, occasionally adjusting position but remaining identifiable by their appearance and consistent tracking. No other tracker boxes or IDs are assigned to this person, and there are no occlusions or interactions that disrupt the tracking. The highlight disappears after the first few seconds, but the correct tracker box remains on the target, confirming reliable tracking."
+}

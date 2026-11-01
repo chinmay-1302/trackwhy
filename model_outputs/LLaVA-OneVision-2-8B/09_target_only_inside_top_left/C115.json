@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a light blue jacket standing near the pillar. The tracker consistently follows this person throughout the clip, with no errors in detection, identity, or tracking. The highlighted box initially appears on this person and remains correctly assigned to them as they stand in place, with no occlusions or interactions that would cause a tracking error. The tracker maintains a consistent bounding box around the target, and there are no instances of duplicate tracks, drift, or identity transfer. The target remains fully visible and identifiable for the entire duration of the clip, with no visual conditions that would impede detection. The colored highlight is present and correctly maps to the intended target for the relevant portion of the clip, with no mismatch or ambiguity. The tracker output is reliable and accurate, with no errors in the tracking of the intended physical person."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is initially highlighted with ID 256, which remains consistently tracked throughout the clip. The target maintains a clear trajectory, with no occlusions, identity switches, or tracking errors observed. The tracker correctly follows the physical person even as the highlight is no longer present, with the target's ID remaining consistent and no other IDs overlapping on the same person. The target remains fully visible and identifiable throughout the entire sequence."
+}

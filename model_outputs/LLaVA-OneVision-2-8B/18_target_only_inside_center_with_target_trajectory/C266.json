@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a green shirt, who is consistently tracked by the ordinary tracker boxes throughout the clip. The colored highlight appears on this person and remains associated with them for the duration of the clip, indicating that the tracker is correctly following the intended target without any errors or ambiguities."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person wearing a dark jacket and carrying a bag, is consistently tracked by the ordinary tracker box with ID 78 from 0:16 to 0:19. The colored highlight disappears after 0:16, but the correct tracker box remains active on the same person. No tracker error occurs; the highlight is simply missing."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person standing near the pillar on the right side of the frame. The highlighted box is initially on this person, and the tracker correctly follows this person throughout the clip. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable, with no missed detections or tracking errors. The highlight disappears after the first few seconds, but the correct tracker box remains on the target, indicating no probe issue."
+}

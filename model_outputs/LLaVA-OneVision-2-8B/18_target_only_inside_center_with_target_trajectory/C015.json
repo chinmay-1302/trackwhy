@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a black and white sports jersey with the number 20, who is consistently tracked throughout the clip. The target moves from the right side of the frame towards the center, passing by other pedestrians without any occlusions or interactions that would cause a tracker error. The colored highlight initially appears on this person and remains consistent with their movement, indicating that the tracker is correctly following the intended target. No other tracker boxes or IDs are assigned to this person, and there are no instances of duplicate tracks, drift, or identity transfer. The target remains fully visible and identifiable throughout the entire clip, with no missed detections or visual conditions that would impede tracking. The tracker behavior is accurate and reliable, with no errors observed."
+}

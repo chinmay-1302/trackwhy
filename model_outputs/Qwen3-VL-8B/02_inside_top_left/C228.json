@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, identifiable by appearance and consistent tracking, remains correctly tracked throughout the clip. The colored highlight disappears after the initial frames, but the correct ordinary tracker box and ID persist, indicating no tracker error."
+}

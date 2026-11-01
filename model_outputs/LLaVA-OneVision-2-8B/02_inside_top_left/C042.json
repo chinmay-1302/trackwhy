@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is tracked consistently throughout the clip, with no evidence of tracker errors such as duplicate tracks, drift, identity transfer, or fragmentation. The target's visibility is partly obscured by other pedestrians, which aligns with the crowd occlusion visual condition. The colored highlight is not used to determine the target's identity, and the tracker maintains correct association with the intended physical person even when the highlight is not present."
+}

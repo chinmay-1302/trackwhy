@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a light blue jacket, initially highlighted at the top of the frame. The tracker follows this person as they move down the frame, with their bounding box consistently updating to match their position. The target is occasionally occluded by other pedestrians, but the tracker maintains a consistent association with the intended person. The visibility is partly visible due to the crowded environment, but the tracker does not lose association with the target. No errors in tracking are observed."
+}

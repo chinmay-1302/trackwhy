@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket standing near the center of the frame, directing people. The target remains consistently tracked with a single tracker box throughout the clip, with no errors in identity, tracking, or detection. The colored highlight is present initially and remains on the correct target for the duration of the clip, with no mismatch or disappearance of the highlight. The target's position and appearance are consistent, and there are no occlusions or other factors causing a miss or tracking error."
+}

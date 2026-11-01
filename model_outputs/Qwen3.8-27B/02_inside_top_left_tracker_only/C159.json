@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, a seated man in a dark jacket, is consistently tracked with ID 1 throughout the clip until he is partially occluded and moves out of the frame, with no identity switches or tracker errors observed."
+}

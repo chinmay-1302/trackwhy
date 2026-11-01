@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a blue hoodie, initially highlighted in the lower left area. The tracker maintains a consistent bounding box around this individual throughout the clip, even as they move through the crowd. The target's visibility is partly obscured by other pedestrians and the surrounding crowd, but the tracker continues to follow the correct individual without any errors, identity changes, or missed detections. The visual conditions include crowd occlusion, which affects the target's visibility but not the tracker's performance."
+}

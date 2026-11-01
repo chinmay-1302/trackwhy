@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, initially highlighted as ID 86, is tracked correctly until it exits the frame. The highlight disappears but the correct tracker box remains active. Later, ID 133 appears and tracks a different person, but the original target is not re-identified or lost, so no tracker error occurs."
+}

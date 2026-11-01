@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is initially highlighted with ID 357, which is consistently tracked throughout the clip. The target's appearance, position, and motion are continuously monitored, and no tracker errors or identity switches are observed. The target remains fully visible and identifiable, with no occlusion or loss of detection."
+}

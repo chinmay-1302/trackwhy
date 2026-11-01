@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person walking near the pillar, tracked by ID 411. The highlight initially misidentifies a different person (ID 401) and later switches to the correct target (ID 411). The tracker correctly follows the target throughout the clip without error, despite the highlight mismatch."
+}

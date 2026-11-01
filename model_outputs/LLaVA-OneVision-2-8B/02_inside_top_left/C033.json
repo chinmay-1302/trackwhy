@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a dark jacket and carrying a bag, initially highlighted in the center of the frame. The tracker follows this person as they move forward, with the highlight disappearing after a few seconds. The person is occasionally occluded by other pedestrians, but the tracker maintains the correct bounding box throughout the clip. The visual conditions include crowd occlusion as the person moves through a busy area with many other pedestrians. The highlight is not present for most of the clip, but the correct tracker box remains on the target, indicating no tracker error."
+}

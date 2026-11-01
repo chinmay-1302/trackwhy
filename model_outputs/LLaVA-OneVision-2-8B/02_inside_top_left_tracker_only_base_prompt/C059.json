@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a yellow vest, initially highlighted in the center of the frame. This person is consistently tracked by the system throughout the clip, with no instances of duplicate tracking, identity transfer, or drift. The target maintains a clear and consistent trajectory, moving from the center of the frame towards the right side, passing by other pedestrians without any occlusions that would disrupt the tracking. The system correctly assigns and maintains the track ID on this person, with no missed detections or incorrect identity assignments. The colored highlight is present initially and then disappears, but the correct ordinary tracker box remains on the target, indicating no probe issue. The target remains fully visible throughout the clip, with no visual conditions such as occlusion, truncation, or poor illumination affecting the tracking. The system's performance is consistent and accurate, with no errors in tracking the intended target."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person highlighted in the yellow box on the right side of the frame. The tracker follows this person consistently throughout the clip, with no evidence of duplicate tracks, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable, with no missed detections or visual conditions that would impede tracking. The colored highlight is present for the duration of the clip, and the tracker maintains correct association with the target."
+}

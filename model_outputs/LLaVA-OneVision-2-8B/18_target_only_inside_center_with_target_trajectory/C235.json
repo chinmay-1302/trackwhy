@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a dark jacket and carrying a bag, visible in the center of the frame. The tracker follows this person consistently throughout the clip, with no errors in detection, identity, or tracking. The colored highlight initially marks this person and remains consistent with their movement. No occlusions, crossings, or other events cause the tracker to lose or misidentify the target. The tracker maintains a correct bounding box and track ID on the target for the entire duration of the clip."
+}

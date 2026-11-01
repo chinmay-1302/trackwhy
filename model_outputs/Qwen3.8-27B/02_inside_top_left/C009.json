@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The physical target, initially highlighted as ID 21, is tracked by that ID until it disappears around the 14-second mark; the target then reappears and is assigned a new ID (182) that had previously been tracking a different person, indicating an identity transfer."
+}

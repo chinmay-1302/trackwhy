@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is the person with the yellow highlighted bounding box at the start of the clip. This person is tracked throughout the video, maintaining the same track ID and position relative to the camera. There are no instances of occlusion, identity transfer, or tracking errors. The target continues to be visible and identifiable throughout the entire clip, with no missing detections or incorrect associations."
+}

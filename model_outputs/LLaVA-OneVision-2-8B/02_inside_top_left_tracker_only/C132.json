@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is initially highlighted with ID 993.2. This ID remains consistently associated with the same physical person throughout the clip, even as the highlight disappears. The tracker maintains correct association with the target, showing no errors in identity, drift, or fragmentation. The target remains fully visible and identifiable, with no occlusion or other visual conditions affecting detection."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a blue hoodie in the lower left area of the frame. This person is tracked consistently throughout the clip with the ID 660. The target is visible for the entire duration of the clip, but is partially occluded by other pedestrians and the statue in the foreground, leading to the partly visible classification. The visual conditions are primarily crowd occlusion as the target is surrounded by other people. There are no probe issues, tracker errors, or identity changes observed. The tracker maintains a consistent association with the intended target despite the occlusions."
+}

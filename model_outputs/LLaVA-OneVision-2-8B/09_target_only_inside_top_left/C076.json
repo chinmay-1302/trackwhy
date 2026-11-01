@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person in the light blue hoodie standing near the statue on the left side of the frame. This person remains consistently tracked throughout the entire clip with a single, continuous tracker box. There are no instances of duplicate tracking, identity transfer, fragmentation, or missed detection of the target. The tracker maintains correct association with the target even as the crowd moves around and other people walk through the scene. The colored highlight appears intermittently but does not change the target's identity or tracking status. The target remains fully visible and identifiable for the entire duration of the clip."
+}

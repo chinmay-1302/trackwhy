@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, initially tracked as ID 784, is a pedestrian walking away from the camera. Around the 7-second mark, the tracker ID 784 is lost, and the target is subsequently re-identified and tracked as ID 1241, indicating an identity transfer or fragmentation event where the tracker failed to maintain the original ID."
+}

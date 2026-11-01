@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is tracked consistently throughout the clip, with the highlighted box initially corresponding to the correct physical person. The target moves through the crowd, and the tracker maintains association with the same person even as the highlight disappears. The target becomes partly occluded by other pedestrians, but the tracker continues to follow the correct individual without errors, identity changes, or missed detections. The visual conditions include crowd occlusion as the target moves through a dense group of people."
+}

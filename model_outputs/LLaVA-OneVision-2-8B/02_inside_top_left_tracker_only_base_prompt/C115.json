@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is tracked reliably throughout the clip, with no errors in detection, identity, or tracking. The target is visible and tracked by the ordinary tracker boxes, with no issues in continuity or assignment of track IDs. The target's visibility is partly obscured by other people in the crowd, but the tracker maintains correct association with the target's bounding box and track ID throughout the clip."
+}

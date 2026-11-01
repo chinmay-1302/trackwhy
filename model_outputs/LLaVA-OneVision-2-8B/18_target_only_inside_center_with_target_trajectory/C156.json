@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a black jacket and dark pants, initially highlighted in the upper middle area of the frame. The target remains visible throughout the clip, with no significant occlusions or changes in appearance. The tracker consistently follows the target, with no evidence of duplicate tracks, identity transfers, or drift. The target's motion is consistent with walking in a crowd, and the tracker maintains accurate localization without errors. The highlight disappears after the first few seconds, but the target remains correctly tracked using ordinary bounding boxes. No visual conditions such as poor lighting, blur, or occlusion prevent the tracker from maintaining detection of the target. The probe issue is not applicable as the highlight does not mark a ghost detection or mismatch with the intended target."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a dark jacket and carrying a bag, initially highlighted on the right side of the frame. The tracker follows this person as they move towards the right, navigating through the crowd. The target's bounding box remains consistent with the person's movement, and there are no instances of duplicate tracking, drift, or identity transfer. The target becomes partly visible as they move through the crowd, with other people occluding parts of their body. The tracker maintains a correct association with the target throughout the clip, even as the highlight disappears. The visual conditions include crowd occlusion, which affects the target's visibility but not the tracker's ability to maintain the correct association."
+}

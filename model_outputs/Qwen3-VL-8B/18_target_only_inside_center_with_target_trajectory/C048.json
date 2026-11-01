@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a dark jacket near the entrance, is consistently tracked by an ordinary tracker box with ID 1530. The colored highlight initially appears on this person but disappears after 0:04, while the tracker box remains active. No tracker error occurs; the target is correctly followed throughout the clip."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, identified by the highlight at 0:04, is a person in a dark jacket walking in the lower right area. The highlight disappears after 0:04, but the correct tracker box (ID 241) remains active on the same person throughout the clip, showing no error in tracking. The highlight is missing, but the tracker continues to follow the target correctly."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a dark jacket and dark pants who is standing near the entrance area on the right side of the frame. The target remains consistently tracked by the ordinary tracker boxes throughout the clip, with no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target's position and appearance are clearly identifiable, and the tracker maintains a correct association with the person even as the crowd moves around them. The colored highlight initially appears on this target, but it is not necessary to follow the highlight as the ordinary tracker boxes provide sufficient evidence to track the target reliably. There are no missed detection intervals, and the target remains fully visible throughout the clip, with no significant occlusion or visual conditions that would impede tracking. The tracker output is accurate and consistent with the target's motion and appearance."
+}

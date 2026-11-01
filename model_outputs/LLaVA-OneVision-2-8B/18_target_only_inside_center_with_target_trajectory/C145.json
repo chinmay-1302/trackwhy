@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a red jacket near the pillar. The tracker follows this person consistently throughout the clip, with no errors in detection, identity, or tracking. The colored highlight initially appears on this person and remains consistent with their movement, indicating correct tracking behavior."
+}

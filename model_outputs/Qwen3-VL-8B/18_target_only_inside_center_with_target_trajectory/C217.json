@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, identified by the yellow highlight at 0:04, is a person wearing a black jersey with the number 15. The highlight disappears after 0:04, but the same person remains correctly tracked by an ordinary tracker box with ID 817 throughout the clip. There are no tracker errors, and the target is continuously visible and correctly followed."
+}

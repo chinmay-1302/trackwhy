@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, identified by the highlight at the start, is a person in dark clothing standing near a pillar. The highlight disappears after the first few frames, but the same person remains visible and correctly tracked by an ordinary tracker box throughout the clip. No tracker error occurs; the highlight is simply missing."
+}

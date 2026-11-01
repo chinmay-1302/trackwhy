@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a bright orange safety vest, who is consistently tracked by the MOT system throughout the clip. The colored highlight initially appears on this person and remains attached to them as they move through the crowd. There are no instances of duplicate tracks, identity transfers, or tracking drift. The target is fully visible and identifiable at all times, with no missed detections or interruptions in the tracking. The MOT system correctly maintains the track on the target person, even as they navigate through the busy environment and interact with other pedestrians. The highlight disappears at the end of the clip, but the correct ordinary tracker box remains on the target, indicating no probe issue. The tracking performance is reliable and consistent with the target's motion and appearance."
+}

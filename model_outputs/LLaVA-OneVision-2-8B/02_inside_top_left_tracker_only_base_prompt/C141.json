@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a brown jacket and blue jeans, initially highlighted on the right side of the frame. The tracker follows this person as they move towards the center of the frame, navigating through the crowd. The target's tracker box remains consistent with the person's movement, and there are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target becomes partly visible as they move through the crowd, with other people occluding parts of their body. The tracker maintains a correct association with the target throughout the clip, even when the person is partially obscured by others. The colored highlight disappears after the initial frames, but the correct ordinary tracker box remains on the target, indicating no tracker error. The visual conditions include crowd occlusion, which explains the partial visibility of the target. There are no probe issues, as the highlight is only used as an attention cue and does not mislead the tracker. The overall tracker behavior is accurate and reliable, with no errors in tracking the intended physical person."
+}

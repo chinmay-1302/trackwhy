@@ -1,0 +1,13 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially highlighted with ID 155 is a person wearing a white shirt and dark pants. The target's track drifts onto another person who is moving, while the original physical target becomes partly visible again later in the clip. The tracker box follows the moving person instead of the original target."
+}

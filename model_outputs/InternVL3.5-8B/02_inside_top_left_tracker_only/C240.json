@@ -1,0 +1,15 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_clutter"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target initially highlighted is a person moving towards the right side of the frame. The tracker ID follows this person but drifts onto another moving person as the original target becomes partly visible amidst crowd clutter."
+}

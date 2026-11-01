@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a red jacket walking from the left side of the frame towards the center. The target is consistently tracked by an ordinary tracker box throughout the clip, with no errors in identity, drift, or missed detections. The target becomes partly visible due to crowd occlusion, but the tracker maintains correct association with the target. The colored highlight is not used to identify the target, so no probe issue is present."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, identified by the highlighted box at 0:04, is a person wearing a black shirt with the number 15 on the back. The highlight disappears after 0:04, but the same person remains correctly tracked by the ordinary tracker box with ID 817 throughout the clip. There are no identity changes, drift, or misses. The tracker behavior is correct, and the only probe issue is that the highlight is missing after the initial frame."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person walking in the middle of the hall, visible from 0:05 to 0:08. The highlight incorrectly marks a different person on the left side of the hall, which is a highlight_target_mismatch. The correct tracker box for the intended target remains visible and correctly follows the person throughout the clip, indicating no tracker error."
+}

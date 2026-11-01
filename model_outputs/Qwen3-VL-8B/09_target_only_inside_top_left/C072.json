@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is consistently tracked by an ordinary tracker box with ID 734, which remains visible throughout the clip. The colored highlight initially appears on a different person but then correctly highlights the same target as the tracker box. There are no tracker errors, and the target is clearly identifiable by its motion and position relative to the crowd and surrounding environment."
+}

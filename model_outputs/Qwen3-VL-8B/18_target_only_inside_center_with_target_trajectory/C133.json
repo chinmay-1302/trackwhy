@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target, indicated by the highlight, is consistently tracked by an ordinary tracker box throughout the clip. The highlight disappears briefly but the correct tracker box remains active on the same physical person, indicating no tracker error."
+}

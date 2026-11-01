@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The intended target, initially highlighted as ID 8, is tracked by that ID until it is lost; the highlight then jumps to a different person (ID 139), and the original target reappears with a new ID (6), indicating an identity transfer or fragmentation event where the original track was lost and a new one assigned."
+}

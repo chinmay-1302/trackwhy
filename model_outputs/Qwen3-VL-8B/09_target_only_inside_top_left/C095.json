@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, marked by the yellow highlight, is a person in a dark jacket and light-colored shirt walking through the station. The highlight disappears after the initial frames, but the same person remains correctly tracked by an ordinary tracker box with ID 32 throughout the clip. The tracker does not lose the target or switch to another person, and there are no identity changes or misses. The only probe issue is that the highlight is missing after the initial frames."
+}

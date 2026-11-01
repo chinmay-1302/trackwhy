@@ -1,0 +1,17 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing",
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a blue shirt near the pillar, tracked by ID 428 initially, then by ID 778. The highlight disappears and later highlights a different person, but the correct tracker box remains on the intended target throughout the clip."
+}

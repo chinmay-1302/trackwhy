@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person standing near the pillar on the right side of the frame. The target is initially visible but becomes occluded by the crowd and the pillar, making it difficult to track. The highlight is missing, but the target's tracker box remains present. There is no evidence of duplicate tracks, drift, or identity transfer. The target is partially visible due to crowd occlusion."
+}

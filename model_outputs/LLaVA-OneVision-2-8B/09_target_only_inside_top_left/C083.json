@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in the crowd who is highlighted at the start of the clip. The tracker follows this person as they move through the crowd, with the highlight disappearing after the first few seconds. The target remains visible and tracked throughout the clip, with no errors in the tracker output. The visual conditions are crowded, making it difficult to distinguish the target from other people, but the tracker maintains a consistent association with the intended person."
+}

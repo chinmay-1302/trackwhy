@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a green shirt, who is tracked consistently throughout the clip. The colored highlight appears intermittently but does not affect the tracker's performance. The target is occasionally occluded by other pedestrians, leading to partial visibility, but the tracker maintains correct association with the target's ID. No identity changes, drift, or missed detections occur during the clip."
+}

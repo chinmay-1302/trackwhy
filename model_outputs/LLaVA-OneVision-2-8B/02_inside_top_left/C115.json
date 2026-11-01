@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a light blue jacket, initially highlighted. The tracker maintains a consistent association with this person throughout the clip, even as the highlight disappears. The target is occasionally occluded by other pedestrians, but the tracker continues to follow the correct individual without any identity changes, duplicates, or missed detections. The visibility is partly visible due to crowd occlusion, but the tracker remains accurate."
+}

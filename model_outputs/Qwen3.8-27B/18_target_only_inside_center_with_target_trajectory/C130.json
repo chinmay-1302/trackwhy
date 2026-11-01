@@ -1,0 +1,14 @@
+{
+  "annotation_status": "target_not_identifiable",
+  "primary_error": null,
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The yellow highlight box appears in the bottom-left corner but does not enclose any physical person, making it impossible to identify the intended target."
+}

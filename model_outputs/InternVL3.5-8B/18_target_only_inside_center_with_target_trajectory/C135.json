@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "identity_change_subtype": null,
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person highlighted with a yellow box, initially marked with ID 739. The tracker box follows the target closely until it shifts to follow another person, indicating a drift to a moving person. The highlight changes to a different person, indicating a highlight_target_mismatch."
+}

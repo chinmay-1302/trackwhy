@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a dark jacket and carrying a backpack, initially highlighted in the right side of the frame. The tracker follows this person as they move towards the center of the frame, navigating through the crowd. The person is consistently tracked with a yellow bounding box throughout the clip, with no loss of detection or identity change. The tracker maintains correct association with the target even as other people move around and the target changes position relative to the camera. The highlight disappears after the first few seconds, but the correct tracker box remains on the target, indicating no tracker error."
+}

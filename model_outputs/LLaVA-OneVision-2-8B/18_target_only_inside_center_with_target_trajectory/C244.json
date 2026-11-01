@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The target is a person standing near a pillar in the crowd. The highlight is missing after the initial frames, but the target remains visible and correctly tracked by the ordinary tracker boxes throughout the clip. The target is partially occluded by the crowd, which causes the visibility to be partly visible. There are no tracker errors, and the primary error is no_error as the target is correctly tracked despite the missing highlight."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a red hoodie and white pants, located in the lower right area of the frame. The target remains consistently tracked throughout the clip with no errors in detection, identity, or tracking. The colored highlight is present and correctly identifies the target for the entire duration of the clip, with no mismatches or disappearances. The target's motion is consistent with walking through the crowd, and there are no instances of occlusion, fragmentation, or identity transfer affecting the target's tracking. The tracker maintains a correct association with the target, and the target's visibility is fully maintained throughout the clip."
+}

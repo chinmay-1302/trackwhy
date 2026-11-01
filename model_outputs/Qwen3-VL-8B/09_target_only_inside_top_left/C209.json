@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a dark shirt and light pants, is visible throughout the clip. The highlight briefly appears on this person at 0:02-0:03 but disappears afterward, while the correct ordinary tracker box remains active on the same person. No tracker error occurs; the tracking is consistent and reliable."
+}

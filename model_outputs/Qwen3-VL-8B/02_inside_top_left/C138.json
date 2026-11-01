@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, marked by the yellow highlight, is consistently tracked by the ordinary tracker box with ID 38 throughout the clip. The highlight disappears after the initial frames, but the correct tracker box remains active on the same person, indicating no tracker error. The highlight is missing, which is a probe issue, but the tracker output is correct."
+}

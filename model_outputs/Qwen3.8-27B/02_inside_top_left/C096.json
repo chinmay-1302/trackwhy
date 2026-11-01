@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, a person in dark clothing, is consistently tracked by ID 727 throughout the clip, with the highlight correctly marking the target until it disappears, after which the ordinary tracker box continues to follow the person without any identity change, drift, or missed detection."
+}

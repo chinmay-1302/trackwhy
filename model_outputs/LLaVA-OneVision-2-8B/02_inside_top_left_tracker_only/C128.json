@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a brown top and blue jeans, initially highlighted with ID 67. The target is tracked consistently throughout the clip, with the ID updating as the person moves, but the same physical person is followed. There are no tracker errors, occlusions, or visual conditions that cause a miss. The target remains fully visible and identifiable throughout the entire clip."
+}

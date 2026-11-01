@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a brown jacket and blue jeans. The target is tracked consistently throughout the clip, with the bounding box following the person as they move from the right side of the frame towards the center. The target is partially occluded by other people and objects in the crowd, but the tracker maintains the correct association with the target. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target's visibility is partly visible due to crowd occlusion, but the tracker does not lose the target's identity. The colored highlight is not present in the clip, but the target is still correctly tracked using the ordinary bounding boxes."
+}

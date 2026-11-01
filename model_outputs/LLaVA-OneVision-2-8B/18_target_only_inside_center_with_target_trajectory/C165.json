@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket, initially highlighted in the lower right area of the frame. The target remains visible throughout the clip, with the highlight disappearing after the first few seconds. The target is consistently tracked by an ordinary tracker box, with no evidence of duplicate tracks, identity changes, or missed detections. The target's visibility is partly obscured by the crowd, but the tracker maintains correct association with the person in the light blue jacket."
+}

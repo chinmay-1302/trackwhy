@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is the person with the yellow highlighted bounding box at the start of the clip. This person remains visible and identifiable throughout the entire clip, with no interruptions or occlusions that would cause a tracker error. The tracker maintains a consistent association with this physical person, and there are no instances of duplicate tracking, identity transfer, fragmentation, or drift. The target's motion is consistent with normal pedestrian movement, and there are no other people or objects that obscure the target during the clip. The tracker's bounding box remains tightly associated with the target's body, and the target's appearance, clothing, and position are consistent throughout the clip. The target's trajectory is predictable, and the tracker's box follows the target's movement accurately. There are no issues with the visualization or probe highlighting, and the target's identity is clearly established and maintained throughout the clip."
+}

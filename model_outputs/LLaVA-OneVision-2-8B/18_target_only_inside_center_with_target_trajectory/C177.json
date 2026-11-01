@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target can be reliably followed throughout the clip using ordinary tracker boxes. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target remains consistently visible and identifiable, with no missed detection intervals. The colored highlight is present for the majority of the clip and correctly corresponds to the intended physical person, providing additional confirmation of the target's identity and position. The tracker output is accurate and consistent with the target's motion and appearance across the entire duration of the video."
+}

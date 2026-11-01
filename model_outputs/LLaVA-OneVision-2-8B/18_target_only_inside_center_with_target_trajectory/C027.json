@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person highlighted by the yellow box at the start of the clip. The target remains visible and is tracked correctly throughout the entire clip. The yellow highlight moves with the target as they walk, and there are no instances of the target's tracker box disappearing or attaching to another person. The target's motion is consistent with walking through the crowd, and there are no occlusions or visual conditions that would cause a miss. The tracker maintains a correct association with the target for the full duration of the clip."
+}

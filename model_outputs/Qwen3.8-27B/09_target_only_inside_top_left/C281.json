@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "medium",
+  "explanation": "The intended target (ID 428) is tracked until they disappear behind a pillar, and the track is lost; later, the highlight jumps to a different person (ID 778) who is not the original target, indicating a highlight mismatch and a fragmentation error where the original track was not recovered."
+}

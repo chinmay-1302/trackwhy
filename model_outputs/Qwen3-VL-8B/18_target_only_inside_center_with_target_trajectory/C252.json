@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a blue jacket standing near the center of the plaza, who remains consistently tracked by an ordinary tracker box throughout the clip. The colored highlight incorrectly shifts to a different person in a pink jacket near the bottom right corner, indicating a highlight mismatch, but the correct tracker box for the intended target remains active and accurate."
+}

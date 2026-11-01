@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a dark jacket walking near the bottom center of the frame, who is correctly tracked by an ordinary tracker box with ID 1428. The colored highlight initially points to this person but then shifts to a different person in a dark jacket walking nearby, indicating a highlight mismatch. The tracker itself remains correctly attached to the original target throughout the clip."
+}

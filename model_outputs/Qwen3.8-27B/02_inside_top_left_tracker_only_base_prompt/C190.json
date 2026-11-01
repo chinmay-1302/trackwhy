@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target (ID 45) is tracked consistently throughout the clip, but the highlight incorrectly switches to a different person (ID 30) in the later frames, indicating a highlight mismatch while the tracker itself performs correctly."
+}

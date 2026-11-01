@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is tracked reliably throughout the clip, with no errors in detection, identity, or tracking. The target is partially visible due to crowd occlusion, but the tracker maintains a consistent bounding box around the intended person. The colored highlight is present initially but does not affect the tracker's performance, and the target remains correctly identified and tracked even when the highlight is no longer visible."
+}

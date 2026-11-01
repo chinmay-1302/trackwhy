@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a dark jacket and jeans, visible throughout the clip. The highlight incorrectly focuses on a different person (ID 78) for part of the clip, but the correct target remains tracked without error by an ordinary tracker box. The highlight mismatch does not affect the tracker's performance."
+}

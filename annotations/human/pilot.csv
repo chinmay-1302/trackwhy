@@ -1,0 +1,61 @@
+file_id,clip_id,true_class,sequence,observer,answer,seconds,note
+P01,C154,miss,MOT20-03,author,miss,5,
+P01,C154,miss,MOT20-03,naive,no_error,,
+P02,C273,miss,MOT20-03,author,miss,3,
+P02,C273,miss,MOT20-03,naive,no_error,,
+P03,C231,no_error,MOT20-01,author,no_error,20,
+P03,C231,no_error,MOT20-01,naive,no_error,,
+P04,C127,no_error,MOT20-03,author,no_error,15,
+P04,C127,no_error,MOT20-03,naive,no_error,,
+P05,C268,identity_change,MOT20-03,author,identity_change,10,
+P05,C268,identity_change,MOT20-03,naive,identity_change,,fragmentation
+P06,C249,no_error,MOT20-03,author,no_error,10,
+P06,C249,no_error,MOT20-03,naive,no_error,,
+P07,C197,miss,MOT20-03,author,miss,10,
+P07,C197,miss,MOT20-03,naive,miss,,
+P08,C036,no_error,MOT20-01,author,identity_change,30,
+P08,C036,no_error,MOT20-01,naive,no_error,,
+P09,C053,identity_change,MOT20-01,author,identity_change,10,drift
+P09,C053,identity_change,MOT20-01,naive,identity_change,,drift
+P10,C031,miss,MOT20-03,author,miss,15,
+P10,C031,miss,MOT20-03,naive,dont_know,,too much crowd cant see
+P11,C148,no_error,MOT20-03,author,identity_change,30,duplicate
+P11,C148,no_error,MOT20-03,naive,identity_change,,
+P12,C234,identity_change,MOT20-03,author,identity_change,25,fragmentation
+P12,C234,identity_change,MOT20-03,naive,identity_change,,fragmentation
+P13,C099,no_error,MOT20-01,author,no_error,10,
+P13,C099,no_error,MOT20-01,naive,no_error,,maybe duplicate tracks
+P14,C078,miss,MOT20-03,author,miss,10,
+P14,C078,miss,MOT20-03,naive,miss,,
+P15,C032,miss,MOT20-03,author,miss,5,
+P15,C032,miss,MOT20-03,naive,miss,,
+P16,C005,no_error,MOT20-01,author,no_error,5,
+P16,C005,no_error,MOT20-01,naive,no_error,,
+P17,C131,no_error,MOT20-03,author,no_error,5,
+P17,C131,no_error,MOT20-03,naive,no_error,,
+P18,C199,miss,MOT20-03,author,miss,5,
+P18,C199,miss,MOT20-03,naive,miss,,potential no_error
+P19,C002,no_error,MOT20-01,author,identity_change,10,
+P19,C002,no_error,MOT20-01,naive,no_error,,
+P20,C072,identity_change,MOT20-03,author,identity_change,10,duplicate
+P20,C072,identity_change,MOT20-03,naive,identity_change,,potential duplicate tracks
+P21,C061,no_error,MOT20-03,author,no_error,5,
+P21,C061,no_error,MOT20-03,naive,no_error,,
+P22,C191,miss,MOT20-03,author,identity_change,10,fragmentation
+P22,C191,miss,MOT20-03,naive,identity_change,,fragmentation
+P23,C037,no_error,MOT20-03,author,no_error,5,
+P23,C037,no_error,MOT20-03,naive,no_error,,cant really see
+P24,C266,no_error,MOT20-01,author,no_error,5,
+P24,C266,no_error,MOT20-01,naive,no_error,,cant see the guy tho
+P25,C161,no_error,MOT20-03,author,no_error,5,
+P25,C161,no_error,MOT20-03,naive,no_error,,
+P26,C244,no_error,MOT20-03,author,no_error,5,
+P26,C244,no_error,MOT20-03,naive,no_error,,
+P27,C093,identity_change,MOT20-03,author,identity_change,5,fragmentations
+P27,C093,identity_change,MOT20-03,naive,miss,,
+P28,C172,no_error,MOT20-03,author,no_error,5,
+P28,C172,no_error,MOT20-03,naive,no_error,,dude goes in tree
+P29,C232,miss,MOT20-03,author,miss,5,
+P29,C232,miss,MOT20-03,naive,miss,,
+P30,C097,miss,MOT20-03,author,miss,5,
+P30,C097,miss,MOT20-03,naive,no_error,,

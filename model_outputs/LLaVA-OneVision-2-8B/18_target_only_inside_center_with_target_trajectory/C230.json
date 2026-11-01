@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light-colored top, initially highlighted in the center of the frame. The tracker follows this person consistently throughout the clip, with no instances of duplicate tracking, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable, with no significant occlusions or visual conditions that would impede tracking. The colored highlight is present initially and later reappears, but the tracker maintains correct association with the target person throughout."
+}

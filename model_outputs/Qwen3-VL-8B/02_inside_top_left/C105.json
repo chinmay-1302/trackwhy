@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in a yellow-highlighted box, is correctly tracked by the ordinary tracker with ID 8 throughout the clip. The highlight mismatches the target at times, but the correct tracker box remains on the same physical person, indicating no tracker error."
+}

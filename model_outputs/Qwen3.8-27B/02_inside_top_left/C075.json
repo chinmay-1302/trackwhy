@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The physical target, initially tracked as ID 784, is followed by the tracker until it is occluded by a large pillar; upon re-emerging, the target is assigned a new ID (1241) that was previously active on a different person, indicating an identity transfer."
+}

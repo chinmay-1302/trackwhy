@@ -1,0 +1,15 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "drift",
+  "drift_subtype": "to_moving_person",
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The target initially highlighted with ID 65 is a person wearing a dark jacket and pants, standing near the building entrance. The target's track drifts onto another person who is moving, while the original person becomes partly occluded by the crowd."
+}

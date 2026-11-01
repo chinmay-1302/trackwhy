@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The highlighted person is tracked consistently throughout the clip, with no errors in detection, identity, or tracking. The tracker maintains a correct bounding box on the target person, who moves from the right side of the frame towards the center, passing through a crowd without any occlusion or tracking loss. The highlight disappears after the initial frames, but the target remains correctly tracked by the ordinary tracker box. No probe or highlight issues are observed, and the target's visibility is consistently clear."
+}

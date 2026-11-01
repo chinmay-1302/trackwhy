@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a blue shirt, initially highlighted near the pillar. The tracker follows this person consistently throughout the clip, with no errors in detection, ID assignment, or tracking. The person moves from the area near the pillar towards the right side of the frame, and the tracker maintains correct association with the target without any duplication, drift, or identity transfer. The highlight disappears after the initial frames, but the correct tracker box remains on the target, confirming reliable tracking."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, indicated by the highlight, is not the same physical person as the one tracked by the ordinary tracker box with ID 996. The highlight switches to a different person while the correct target remains tracked by its own ID. This is a probe issue, not a tracker error."
+}

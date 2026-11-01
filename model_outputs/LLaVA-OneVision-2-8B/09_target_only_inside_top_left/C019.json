@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a red top, initially visible near the center of the frame. The person moves slightly but remains within the crowd, with their visibility partially obscured by other people. The tracker maintains a consistent bounding box on the target throughout the clip, with no errors in tracking or ID assignment. The primary issue is the target's visibility being partly obscured by the crowd, which is a valid visual condition for the observed scene."
+}

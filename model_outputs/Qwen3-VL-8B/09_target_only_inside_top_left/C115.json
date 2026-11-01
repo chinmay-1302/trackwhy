@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a light blue jacket standing near the entrance, who is tracked by ID 652. The highlight initially points to this person (0:03), but then incorrectly highlights a different person (0:05). The tracker correctly continues following the original target with ID 652, even after the highlight changes. No tracker error occurred; the highlight mismatch is the only probe issue."
+}

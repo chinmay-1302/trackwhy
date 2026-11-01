@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "medium",
+  "explanation": "The tracker initially follows a person in an orange shirt (ID 49), but the track ID subsequently transfers to a different person in a white shirt (ID 8) as the first person moves out of the highlighted area."
+}

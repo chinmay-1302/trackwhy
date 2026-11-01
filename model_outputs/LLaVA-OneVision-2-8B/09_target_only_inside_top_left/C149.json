@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target can be followed reliably across the clip with no tracker errors or missing detections. The target remains consistently tracked by an ordinary tracker box throughout the entire sequence, with no evidence of duplicate tracks, identity transfers, or drift. The colored highlight is present in the latter part of the clip but does not affect the tracker's ability to follow the target, as the ordinary tracker box remains correctly assigned to the same physical person. There are no significant occlusions, visual conditions, or other factors that would cause a miss or tracking error. The target's motion and position are consistent with the expected behavior of a person in a crowded public space, and the tracker maintains correct association with the target even as the crowd density and movement patterns change."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is consistently tracked by its ordinary tracker box throughout the clip, with no identity changes, drift, or misses observed. The colored highlight is not used to determine the target, and the tracker output remains accurate."
+}

@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a green and black checkered shirt, who is consistently tracked by the yellow highlighted bounding box throughout the clip. The tracker maintains a correct association with this person, with no evidence of duplicate tracks, identity transfer, fragmentation, or missed detections. The target's motion is consistent with normal pedestrian movement in a busy train station environment, and the tracker follows the target reliably even as the person moves through the crowd and interacts with other pedestrians. The yellow highlight remains consistently attached to the correct physical person, with no mismatch or disappearance of the highlight indicating a probe issue. The target remains fully visible and identifiable throughout the clip, with no occlusions or visual conditions that would impede tracking."
+}

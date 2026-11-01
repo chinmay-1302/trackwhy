@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket, initially highlighted in the upper right area of the frame. The tracker follows this person consistently throughout the clip, with the highlighted box disappearing but the correct tracker box remaining on the same individual. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target remains fully visible and identifiable, with no significant occlusion or visual conditions affecting detection. The tracker maintains a consistent association with the intended physical person, with no errors in tracking behavior observed."
+}

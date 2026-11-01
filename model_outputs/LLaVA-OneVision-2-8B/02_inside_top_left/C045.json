@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in the center of the frame, highlighted in yellow. The tracker follows the person consistently throughout the clip, even when the person moves and interacts with other people. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The target is occasionally occluded by other people, which causes the visibility to be partly visible, but the tracker maintains the correct ID on the target. The visual conditions include crowd occlusion as the target moves through a crowded area. The highlight is present for the entire duration of the clip, and there are no probe issues."
+}

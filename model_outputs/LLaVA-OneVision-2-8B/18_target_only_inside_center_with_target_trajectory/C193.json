@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket, initially highlighted in the upper right area of the frame. The target remains visible throughout the clip, with no significant occlusions or changes in appearance. The tracker consistently follows the target, with no evidence of duplicate tracks, identity transfers, or drift. The target's movement is smooth and continuous, with no interruptions in tracking. The highlight disappears after the first few seconds, but the target remains correctly tracked by the ordinary tracker boxes. No visual conditions such as poor illumination or crowd clutter significantly affect the target's visibility. The probe issue is not applicable as the highlight is only an attention cue and does not indicate a ghost detection or mismatch."
+}

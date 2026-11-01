@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "miss",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "not_visible",
+  "visual_conditions": [
+    "static_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, initially highlighted with ID 1335, walks behind a large white pillar and becomes completely occluded, resulting in a detection miss for the remainder of the clip."
+}

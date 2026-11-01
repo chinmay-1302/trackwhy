@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in dark clothing standing near a pillar, tracked by ID 59 initially, then by ID 99. The highlight incorrectly switches from ID 59 to ID 99, but the physical target remains correctly tracked throughout the clip without any tracker error."
+}

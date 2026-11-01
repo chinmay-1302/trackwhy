@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, initially tracked as ID 22, is a person in a dark jacket walking away from the camera. Around the 8-second mark, the tracker ID 22 transfers to a different person (a woman in a grey top) walking in the opposite direction, while the original target continues to be tracked by a new ID (78)."
+}

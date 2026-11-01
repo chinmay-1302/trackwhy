@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a blue jacket, initially highlighted in the upper middle of the frame. The tracker follows this person consistently throughout the clip, with no errors in detection, ID assignment, or tracking. The person moves from the upper middle area towards the lower right, passing by other pedestrians and remaining clearly visible at all times. No occlusions, tracking failures, or ID switches occur, and the tracker maintains a correct association with the target person for the entire duration of the video."
+}

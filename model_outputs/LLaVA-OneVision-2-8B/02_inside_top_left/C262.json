@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a red coat, initially highlighted on the left side of the frame. The tracker maintains a consistent bounding box on this person throughout the clip, even as they move slightly and are partially occluded by other pedestrians. The highlight disappears after the first few seconds, but the correct tracker box remains on the target. No identity changes, drift, or missed detections occur. The target's visibility is partly obscured by other people in the crowd, but the tracker continues to follow the person reliably."
+}

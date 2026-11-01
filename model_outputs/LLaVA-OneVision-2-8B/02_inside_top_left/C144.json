@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is tracked reliably throughout the clip, with no errors in identity, detection, or tracking. The target is partially occluded by other people in the crowd, but the tracker maintains the correct bounding box and ID. The colored highlight is present and correctly follows the target, with no mismatch or disappearance. There are no instances of duplicate tracks, drift, or identity transfer. The target remains visible and identifiable despite the crowded environment, with no significant visual conditions such as poor lighting or blur affecting the tracker's performance."
+}

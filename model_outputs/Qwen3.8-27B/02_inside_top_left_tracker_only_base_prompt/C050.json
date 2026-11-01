@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The tracker initially follows the target (ID 30) but, upon the target stopping and interacting with a seated person, the ID 30 track transfers to the seated person while the standing target is assigned a new ID (90), indicating an identity transfer."
+}

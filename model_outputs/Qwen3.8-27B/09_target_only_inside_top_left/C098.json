@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target (ID 169) is tracked correctly until they disappear behind a pillar, after which the tracker ID 424, previously assigned to a different person, is transferred to the target upon their reappearance, and the highlight incorrectly marks this new ID."
+}

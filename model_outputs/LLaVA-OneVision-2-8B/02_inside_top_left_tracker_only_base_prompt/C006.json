@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person wearing a brown jacket and blue jeans. The target is initially visible and tracked correctly. The target moves through the crowd, and at some point, the target becomes occluded by other people, leading to a temporary loss of detection. The target reappears later, and the tracker correctly resumes tracking the target. The colored highlight is present initially but disappears later, but the correct ordinary tracker box remains on the target. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The primary error is no_error as the target is correctly tracked throughout the clip, with only a temporary miss due to crowd occlusion."
+}

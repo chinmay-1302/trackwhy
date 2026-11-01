@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person wearing a red backpack, is correctly tracked by an ordinary tracker box with ID 293 throughout the clip. The colored highlight initially matches the target but later mismatches by highlighting a different person. This is a probe issue, not a tracker error, as the correct tracker box remains active on the intended target."
+}

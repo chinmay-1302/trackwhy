@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a yellow jacket, initially highlighted in the center of the frame. The tracker follows this person consistently throughout the clip, with no errors in detection, ID assignment, or tracking. The person moves forward through the crowd, and the tracker maintains an accurate bounding box around them at all times, even as they navigate around other pedestrians. There are no instances of occlusion, fragmentation, or ID transfer affecting the target's tracking. The highlight disappears after the first few seconds, but the correct ordinary tracker box remains on the target, confirming reliable tracking."
+}

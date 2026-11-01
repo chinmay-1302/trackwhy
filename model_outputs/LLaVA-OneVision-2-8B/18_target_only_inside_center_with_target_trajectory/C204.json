@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The highlighted person is visible in the upper left area of the frame initially, but is quickly obscured by the crowd and other pedestrians. The tracker correctly follows the intended target even as the highlight disappears, with no errors in tracking or ID assignment observed throughout the clip."
+}

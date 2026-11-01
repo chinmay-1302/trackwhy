@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a white hoodie standing near the entrance of the stadium. The target remains visible throughout the clip, with no tracker errors or highlight issues. The target is occasionally partially occluded by other people in the crowd, but remains identifiable."
+}

@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, initially highlighted as '212', is not visible in the frame at 0:00. The correct tracker box for the target remains visible throughout the clip, and the highlight disappears without any tracker error. The target is consistently tracked by its ordinary tracker box, and no identity change or drift occurs."
+}

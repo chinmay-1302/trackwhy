@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a black shirt with the number 20 on the back, who is tracked consistently by a single ID throughout the clip without any identity errors or missed detections. The colored highlight, however, initially marks a static sign and later jumps to a different person, indicating a highlight target mismatch."
+}

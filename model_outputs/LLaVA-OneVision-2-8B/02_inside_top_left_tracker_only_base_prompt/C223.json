@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person wearing a blue jacket in the lower right area of the frame. The colored highlight initially marks this person, and the tracker maintains a consistent bounding box around them throughout the clip. The target is visible but partially occluded by other pedestrians and the surrounding crowd, which aligns with the 'partly_visible' classification. The visual conditions include crowd occlusion as multiple people are moving around and standing close to the target, making it difficult to track continuously. There are no instances of duplicate tracks, drift, identity transfer, or fragmentation. The tracker maintains a consistent track on the target, even when the highlight is no longer present, indicating reliable tracking performance. The primary error is classified as no_error as the tracker successfully follows the intended target without any significant issues."
+}

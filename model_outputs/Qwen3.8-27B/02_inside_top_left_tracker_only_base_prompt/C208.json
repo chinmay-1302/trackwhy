@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The physical target is initially tracked as ID 21, but the track is lost and the same person is subsequently re-identified with a new ID (49) without a simultaneous duplicate track, indicating fragmentation. The colored highlight disappears after the initial frames, resulting in a highlight_missing probe issue."
+}

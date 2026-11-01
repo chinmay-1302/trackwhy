@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target, a person in dark clothing near a statue, is consistently tracked by an ordinary tracker box with ID 385 from 0:05 to 0:09. The highlight initially shows ID 357 (0:00-0:04) and then switches to ID 385 (0:05-0:09), but the correct tracker box remains active on the target. The highlight disappears after 0:04, which is a probe issue, but the tracker itself does not make an error."
+}

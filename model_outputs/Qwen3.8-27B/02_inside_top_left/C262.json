@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "identity_transfer",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_target_mismatch"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person in the white shirt and dark shorts (ID 20) who walks away from the camera. The tracker loses this identity, and the ID 20 is subsequently transferred to a different person (a man in a dark jacket) on the right side of the hall, while the original target continues to be tracked under a new ID (150)."
+}

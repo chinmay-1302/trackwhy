@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a blue hoodie standing near the center of the frame. The target remains consistently tracked by the same ordinary tracker box throughout the clip, with no evidence of duplicate tracks, identity transfers, or missed detections. The colored highlight appears in the upper left corner of the frame, but it does not correspond to the intended target, and the target's tracker box remains visible and correctly assigned to the person in the blue hoodie. There are no significant occlusions or visual conditions that would impede tracking of the target, and the target's motion is consistent with normal pedestrian movement in a crowded public space."
+}

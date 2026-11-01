@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "identity_change",
+  "identity_change_subtype": "fragmentation",
+  "drift_subtype": null,
+  "target_visibility": null,
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target, a person in a red shirt, is initially tracked with ID 399. The track is lost, and the same physical person is subsequently re-identified with a new ID, 411, which is highlighted for the remainder of the clip, indicating a fragmentation event."
+}

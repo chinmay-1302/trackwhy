@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is the person wearing a yellow vest, initially highlighted. The tracker maintains consistent association with this person throughout the clip, with no identity switches, occlusions, or tracking errors observed. The target's track remains continuous and correctly assigned to the same physical person, with no need for re-association or handling of tracker errors."
+}

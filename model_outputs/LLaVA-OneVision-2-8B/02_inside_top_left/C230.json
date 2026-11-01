@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is the person highlighted in the initial frames, who is tracked consistently throughout the clip. The target moves from the left side of the frame towards the center, passing through a crowd. The tracker maintains the correct bounding box and ID on the target, with no simultaneous duplicate tracks, drift, identity transfer, or fragmentation observed. The target becomes partly visible as it moves through the crowd, with no complete loss of detection. The visual conditions include crowd occlusion as the target moves through the dense pedestrian area."
+}

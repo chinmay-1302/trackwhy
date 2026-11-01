@@ -1,0 +1,18 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": true,
+    "types": [
+      "highlight_missing"
+    ]
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person in a brown jacket standing near the pillar on the right side of the frame. The colored highlight is initially present but disappears after the first few seconds, indicating a highlight_missing probe issue. The target remains visible throughout the clip, though partially obscured by the crowd and other people. The tracker maintains a consistent detection on the target without any identity changes, duplicates, or drift. The target's visibility is partly obscured by the crowd, which is the primary visual condition affecting detection. No other tracker errors are observed."
+}

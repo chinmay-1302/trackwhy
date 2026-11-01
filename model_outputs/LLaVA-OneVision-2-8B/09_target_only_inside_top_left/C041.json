@@ -1,0 +1,14 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "fully_visible",
+  "visual_conditions": [],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The intended target is a person wearing a light blue jacket, initially highlighted in the upper right area of the frame. The tracker follows this person consistently throughout the clip, with no instances of duplicate tracking, drift, identity transfer, or fragmentation. The person moves from the upper right area towards the center of the frame, passing by other pedestrians without any significant occlusions or interactions that would disrupt the tracking. The tracker maintains a consistent association with the target, and the highlight remains on the correct person for the duration of the clip, indicating reliable tracking performance."
+}

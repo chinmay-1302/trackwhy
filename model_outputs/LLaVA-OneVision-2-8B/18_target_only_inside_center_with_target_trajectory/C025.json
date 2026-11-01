@@ -1,0 +1,16 @@
+{
+  "annotation_status": "valid",
+  "primary_error": "no_error",
+  "identity_change_subtype": null,
+  "drift_subtype": null,
+  "target_visibility": "partly_visible",
+  "visual_conditions": [
+    "crowd_occlusion"
+  ],
+  "probe_issue": {
+    "present": false,
+    "types": []
+  },
+  "confidence": "high",
+  "explanation": "The target is a person in a dark jacket and light pants, initially highlighted in the right side of the frame. The target moves towards the center of the frame and is partially occluded by other people. The tracker maintains the correct ID on the target throughout the clip, with no errors in tracking or ID assignment. The target's visibility is partly obscured by the crowd, but the tracker continues to follow the correct person without any issues."
+}
