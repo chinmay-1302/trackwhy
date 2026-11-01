@@ -7,6 +7,8 @@ Models* (VLM4RWD @ NeurIPS 2026).
 Paper: <https://openreview.net/forum?id=TRJ7gFUnta>
 ([PDF](https://openreview.net/pdf?id=TRJ7gFUnta))
 
+Project page: <https://chinmay-1302.github.io/trackwhy-page/>
+
 Clip corpus: <https://huggingface.co/datasets/chinmay-1302/TrackWhy>
 (separate repository — CC BY-NC-SA 3.0; see Licensing)
 
